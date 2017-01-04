@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on NED ROCKSON</title>
+    <title>Blog on Ned Rockson</title>
     <link>http://www.nedrockson.com/tags/blog/index.xml</link>
-    <description>Recent content in Blog on NED ROCKSON</description>
+    <description>Recent content in Blog on Ned Rockson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <atom:link href="http://www.nedrockson.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
