@@ -1,21 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ned Rockson</title>
-    <link>http://www.nedrockson.com/tags/index.xml</link>
-    <description>Recent content on Ned Rockson</description>
+    <title>Tags on Compiling Leadership</title>
+    <link>http://www.nedrockson.com/tags/</link>
+    <description>Recent content in Tags on Compiling Leadership</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="http://www.nedrockson.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
+    <lastBuildDate>Sat, 07 Dec 2019 20:41:27 -0800</lastBuildDate>
+    
+	<atom:link href="http://www.nedrockson.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Nothing here</title>
-      <link>http://www.nedrockson.com/tags/</link>
+      <title>management</title>
+      <link>http://www.nedrockson.com/tags/management/</link>
+      <pubDate>Sat, 07 Dec 2019 20:41:27 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>http://www.nedrockson.com/tags/software/</link>
+      <pubDate>Sat, 07 Dec 2019 20:41:27 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>daily-stoic</title>
+      <link>http://www.nedrockson.com/tags/daily-stoic/</link>
+      <pubDate>Mon, 30 Jul 2018 21:18:12 -0700</pubDate>
+      
+      <guid>http://www.nedrockson.com/tags/daily-stoic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>http://www.nedrockson.com/tags/blog/</link>
+      <pubDate>Sun, 10 Sep 2017 19:00:43 -0700</pubDate>
+      
+      <guid>http://www.nedrockson.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bookshelf</title>
+      <link>http://www.nedrockson.com/tags/bookshelf/</link>
+      <pubDate>Sat, 09 Sep 2017 12:52:46 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/tags/bookshelf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://www.nedrockson.com/tags/about/</link>
       <pubDate>Sun, 01 Jan 2017 16:06:13 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/tags/</guid>
-      <description>&lt;p&gt;Nothing here&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/tags/about/</guid>
+      <description></description>
     </item>
     
   </channel>

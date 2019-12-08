@@ -1,1310 +1,262 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ned Rockson</title>
-    <link>http://www.nedrockson.com/index.xml</link>
-    <description>Recent content on Ned Rockson</description>
+    <title>Compiling Leadership</title>
+    <link>http://www.nedrockson.com/</link>
+    <description>Recent content on Compiling Leadership</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Tue, 31 Jul 2018 21:01:14 -0700</lastBuildDate>
-    <atom:link href="http://www.nedrockson.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
+    <lastBuildDate>Sat, 07 Dec 2019 20:41:27 -0800</lastBuildDate>
+    
+	<atom:link href="http://www.nedrockson.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Daily Stoicism: Your Career is not a Life Sentence</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2018/7/your-career-is-not-a-life-sentence/</link>
-      <pubDate>Tue, 31 Jul 2018 21:01:14 -0700</pubDate>
+      <title>Early Agile OR The Agile That Doesn&#39;t Work For Your Team is the Same Agile That Doesn&#39;t Work For Others</title>
+      <link>http://www.nedrockson.com/posts/management/early-agile/</link>
+      <pubDate>Sat, 07 Dec 2019 20:41:27 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2018/7/your-career-is-not-a-life-sentence/</guid>
-      <description>&lt;p&gt;Let&amp;rsquo;s face it, I get wrapped up in my career. I tend to choose it over other aspects of my life, frequently over things that I should do. I stopped rolling Jiu Jitsu because I took up a new job. I stopped flying because I took on more responsibilities at work. At the end of the day, career should not be a life sentence, and this resonates. It&amp;rsquo;s also difficult to see the forest for the trees.&lt;/p&gt;
-
-&lt;p&gt;The image of a lawyer breathing his last breath while defending a client he doesn&amp;rsquo;t know or care for is stark.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/management/early-agile/</guid>
+      <description>While researching the history of the standup meeting, I came across Jim Coplien&#39;s 1994 retrospective on development of Borland Quattro Pro for Windows. In it, Jim analyzes a herculean effort where a team of eight developers wrote over 1 million lines of code over a 31 month period, or approximately 1,000 lines of code per week per developer1.
+During development the team stumbled across early core agile principles almost a decade before the Agile Manifesto would be published.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: Stoic Joy</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2018/7/stoic-joy/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2018/7/stoic-joy/</link>
       <pubDate>Mon, 30 Jul 2018 21:18:12 -0700</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2018/7/stoic-joy/</guid>
-      <description>&lt;p&gt;Seneca reminds us that joy is something to strive for. Something that is not an externally manifested trait but something that cames from within. Something that comes with being content with who we are and what we do. Something that allows us to stay calm and curious in the face of adversity.&lt;/p&gt;
-
-&lt;p&gt;These descriptions were never in my description of joy. I saw joy as something that came from within (not something that one easily inspires in another) but still something that manifested in happiness. What&amp;rsquo;s clear is Seneca&amp;rsquo;s definition of joy comes much closer to fulfillment or pride than joy.&lt;/p&gt;
-
-&lt;p&gt;After a long discussion, I concluded that joy could derive from perfection. I may not be perfect but I can come to perfection in my enjoyment of my glass of wine. I can perfectly put on my socks. Finding genuine joy within perfecting every day things sounds like a great aspiration.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2018/7/stoic-joy/</guid>
+      <description>Seneca reminds us that joy is something to strive for. Something that is not an externally manifested trait but something that cames from within. Something that comes with being content with who we are and what we do. Something that allows us to stay calm and curious in the face of adversity.
+These descriptions were never in my description of joy. I saw joy as something that came from within (not something that one easily inspires in another) but still something that manifested in happiness.</description>
     </item>
     
     <item>
       <title>Cost Per Usage</title>
-      <link>http://www.nedrockson.com/post/per-usage-cost/</link>
+      <link>http://www.nedrockson.com/posts/per-usage-cost/</link>
       <pubDate>Sun, 10 Sep 2017 19:00:43 -0700</pubDate>
       
-      <guid>http://www.nedrockson.com/post/per-usage-cost/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m always surprised when I realize my $400 suit costs about $20 each wear. Of course I may not live similar to a banker who probably wear a suit 50-100 times before replacement, but most formal engagements require me to spend one suit utilization unit and when I start to iron it the thought crosses my mind.&lt;/p&gt;
-
-&lt;p&gt;Bike shorts, cost somewhere around $5 whenever I go for a ride. I bought my golf clubs for a steal at $150 and have played at least 50 rounds of golf for a cost of $3 per round. Our mattress cost $700 and, if I assume 5 years of nightly sleep, costs us $0.39 per night. My shoes that I wear every day cost $100 and will last me about a year giving me a $0.27 per day amortized cost per use.&lt;/p&gt;
-
-&lt;p&gt;Bridesmaids probably have it the worst. Unlike groomsmen who can rent matching tuxedoes, they usually have to purchase a $200-$300 gown that they will wear once for a per usage cost of $300.&lt;/p&gt;
-
-&lt;p&gt;I have not driven daily in the past five years. When I did, I understood that society requires car ownership (a lease at least) to participate. I never once thought about the cost per use of my car, but thinking about it now it seems rather negative.&lt;/p&gt;
-
-&lt;p&gt;Take my Audi lease in 2010-2013. It cost $614 per month plus $100 per month insurance for a total of $714 per month. Over the 36 month lease, I spent $25,704. Assuming I drove the car two times per day, that cost me $11.73 per ride! While not all rides are created equal, this is rather surprising.&lt;/p&gt;
-
-&lt;p&gt;This metric of per cost usage seems reasonably useless based on this cursory investigation. I&amp;rsquo;m still reasonably interested in the thought but not able to make any conclusions.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/per-usage-cost/</guid>
+      <description>I&#39;m always surprised when I realize my $400 suit costs about $20 each wear. Of course I may not live similar to a banker who probably wear a suit 50-100 times before replacement, but most formal engagements require me to spend one suit utilization unit and when I start to iron it the thought crosses my mind.
+Bike shorts, cost somewhere around $5 whenever I go for a ride. I bought my golf clubs for a steal at $150 and have played at least 50 rounds of golf for a cost of $3 per round.</description>
     </item>
     
     <item>
       <title>Crossing the Chasm</title>
-      <link>http://www.nedrockson.com/post/books/crossing-the-chasm/</link>
+      <link>http://www.nedrockson.com/posts/books/crossing-the-chasm/</link>
       <pubDate>Sat, 09 Sep 2017 12:52:46 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/books/crossing-the-chasm/</guid>
-      <description>
-
-&lt;p&gt;Absolutely fantastic book. I forgot to write a review for it initially and now (6 months later) I finally am getting back to it. I can say that over the past 6 months, this is the book I&amp;rsquo;ve referenced the most (save for &amp;ldquo;A Song of Ice and Fire series&amp;rdquo; due to Game of Thrones&amp;rsquo; penultimate season) and couldn&amp;rsquo;t recommend it higher.&lt;/p&gt;
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;h3 id=&#34;chapter-1-high-tech-marketing-illusion&#34;&gt;Chapter 1: High-Tech Marketing Illusion&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;In academic terms, such change sensitive products are called &amp;ldquo;discontinuous&amp;rdquo; or &amp;ldquo;disruptive innovations&amp;rdquo;. The contrasting term &amp;ldquo;continuous&amp;rdquo; or &amp;ldquo;sustaining innovations&amp;rdquo;, revers to the normal upgrading of products that does not require us to change behavior&lt;/li&gt;
-&lt;li&gt;Warby Parker promises you better looking eyeglasses, that is continuous innovation.&lt;/li&gt;
-&lt;li&gt;Otherhand, Samsung 3-D TV would be discontinuous integration&lt;/li&gt;
-&lt;li&gt;Between &amp;ldquo;continuous&amp;rdquo; and &amp;ldquo;discontinuous&amp;rdquo; lies a sepctrum of demands for behavioral change&lt;/li&gt;
-&lt;li&gt;Funny/Surprising: Initial research in this research was based on adoption of new strains of potatoes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Innovators&lt;/strong&gt; pursue new technology products aggressively.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Early Adopters&lt;/strong&gt; buy into new produt concepts very early but they are not technologists
-
-&lt;ul&gt;
-&lt;li&gt;They are core to opening up any high-tech market segment.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Early Majority&lt;/strong&gt; share some of the early adopter&amp;rsquo;s ability to relate to technology, but ultimately they are driven by a strong sense of practicality
-
-&lt;ul&gt;
-&lt;li&gt;Understand most innovations are passing fads&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Late majority&lt;/strong&gt; like early majority but are not comfortable with technology at all.
-
-&lt;ul&gt;
-&lt;li&gt;Also not willing to pay for premium; wait for R&amp;amp;D costs to be fully amortized&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Laggards&lt;/strong&gt; The only time they buy new tech is when it&amp;rsquo;s buried within another product.&lt;/li&gt;
-&lt;li&gt;It is important to maintain momentum in order to create a bandwagon effect that makes it natural for next group to want to buy in&lt;/li&gt;
-&lt;li&gt;Important to show the new technology enables some strategic leap forward, perhaps through some compelling flagship application.&lt;/li&gt;
-&lt;li&gt;Early majority is willing to become technologically competent where necessary while late majority is not&lt;/li&gt;
-&lt;li&gt;Early adopter is buying a change agent where they can get a jump on the competition
-
-&lt;ul&gt;
-&lt;li&gt;They expect a radical discontinuity between old ways and new&lt;/li&gt;
-&lt;li&gt;Being the first they will deal with bugs and glitches&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Early majority want to buy a productivity imporvement for existing operations.&lt;/li&gt;
-&lt;li&gt;Early adopters &lt;strong&gt;do not&lt;/strong&gt; make a good reference for early majority.&lt;/li&gt;
-&lt;li&gt;There is something fundamentally different between a sale to an early adopter and a sale to the early majority.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-2-high-tech-marketing-enlightenment&#34;&gt;Chapter 2: High-Tech Marketing Enlightenment&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Can we find in the concept of marketing a reasonable basis for taking actions that will predictably and positively affect company revenues?&lt;/li&gt;
-&lt;li&gt;High tech market definition contains:
-
-&lt;ul&gt;
-&lt;li&gt;A set of actual or potential customers&lt;/li&gt;
-&lt;li&gt;For a given set of products or services&lt;/li&gt;
-&lt;li&gt;Who have a common set of needs or wants, and&lt;/li&gt;
-&lt;li&gt;Who reference each other when making a buying decision&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;If two people buy the same product for the same reason but have no way they could reference each other, they are not part of the same market&lt;/li&gt;
-&lt;li&gt;Innovators: Technology Enthusiasts
-
-&lt;ul&gt;
-&lt;li&gt;Technology enthusiasts are teh gatekeepers for any new technology&lt;/li&gt;
-&lt;li&gt;They want the truth without any tricks&lt;/li&gt;
-&lt;li&gt;They want access to the most technically knowledgeable person to answer it&lt;/li&gt;
-&lt;li&gt;They want to be the first to get the new stuff&lt;/li&gt;
-&lt;li&gt;They think all technology should be free or available at cost&lt;/li&gt;
-&lt;li&gt;Direct response advertising works well with this group&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t waste your money on a lot of fancy image advertising&lt;/li&gt;
-&lt;li&gt;Not powerful enough to dictate the buying decisions of others; Do not represent a significant market in themselves.&lt;/li&gt;
-&lt;li&gt;Kindling to start the fire&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Early Adopters: The visionaries
-
-&lt;ul&gt;
-&lt;li&gt;Know it takes a quantum leap forward in how business is conducted in their industry or by their customers&lt;/li&gt;
-&lt;li&gt;They see a potential for an order-of-magnitude ROI&lt;/li&gt;
-&lt;li&gt;Visionaries are easy to sell to but hard to please&lt;/li&gt;
-&lt;li&gt;Things require quick changes so it&amp;rsquo;s important to build in milestones that lend themselves to this sort of product spin-off&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Dynamics of early markets
-
-&lt;ul&gt;
-&lt;li&gt;Winning at marketing requires being the biggest fish in the pond&lt;/li&gt;
-&lt;li&gt;Pursue a &amp;ldquo;bowling pin strategy&amp;rdquo; where knocking one over will help knock others over&lt;/li&gt;
-&lt;li&gt;Problem: Must sell the visionary before having the product&lt;/li&gt;
-&lt;li&gt;Problem: Marketing falls prey to the crack between the technology enthusiast and the visionary by failing to discovery the compelling application that provides the order-of-magnitude leap in benefits&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Early Majority: The pragmatists
-
-&lt;ul&gt;
-&lt;li&gt;People who do not assert a position in life so much as derive one from what life provides&lt;/li&gt;
-&lt;li&gt;If the goal of visionaries is to take a quantum leap forward, the goal of pragmatists is to make a percentage improvement&lt;/li&gt;
-&lt;li&gt;The word risk is negative in their vocabulary&lt;/li&gt;
-&lt;li&gt;It is very tough to break into a new industry selling to pragmatists&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Late majority: The conservatives
-
-&lt;ul&gt;
-&lt;li&gt;As a marketable segment, they are rarely developed as profitably as they could be, largely because high-tech companies are not, as a rule, in sympathy with them.&lt;/li&gt;
-&lt;li&gt;They have more in common with early adopters than you&amp;rsquo;d think - both can be stubborn in their resistance to the call to conform that unites the pragmatist herd.&lt;/li&gt;
-&lt;li&gt;As an example, old cell phones that were built for single functionality (email, video, games) were good for them and one that did it all they did not like and feared.&lt;/li&gt;
-&lt;li&gt;They are price sensitive because they cannot get the full value from their experience.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Dynamics of mainstream markets
-
-&lt;ul&gt;
-&lt;li&gt;Importance of the product itself, its unique functionality is most important to early markets and least to mainstream markets&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Laggards: The skeptics
-
-&lt;ul&gt;
-&lt;li&gt;Struggling to point out: new systems don&amp;rsquo;t deliver on the promise made at the time of purchase&lt;/li&gt;
-&lt;li&gt;The service that skeptics provide to high-tech moarketers is to point continually to the discrepancies between the sales claims and the delivered product.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Markets are made up of people who reference each other during buying decision&lt;/li&gt;
-&lt;li&gt;Four fundamental characteristics of visionaries alienate pragmatists
-
-&lt;ul&gt;
-&lt;li&gt;Visionaries lack respect for the value of colleagues&amp;rsquo; experiences&lt;/li&gt;
-&lt;li&gt;Visionaries take a greater interest in tech than in their industry&lt;/li&gt;
-&lt;li&gt;Visionaries fail to acknowledge the importance of existing product infrastructure&lt;/li&gt;
-&lt;li&gt;Visionaries have little self-awareness about th eimpact of their disruptiveness&lt;/li&gt;
-&lt;li&gt;Visionaries stay a step ahead of disaster by getting out of town while they can and leave pragmatists to clean up the mess.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Companies want pragmatists to buy today while pragmatists want to wait&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-3-the-d-day-analogy&#34;&gt;Chapter 3: The D-Day Analogy&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Perils of the chasm
-
-&lt;ul&gt;
-&lt;li&gt;Managers would like to retreat into their existing major-account relationships, service them in an exceptional way, and leverage that investment of an additional year in fleshing out the greater part of the visionary&amp;rsquo;s plan&lt;/li&gt;
-&lt;li&gt;While there is plenty of good work to do, there is no additional money to pay for it&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Fighting your way into the mainstream
-
-&lt;ul&gt;
-&lt;li&gt;You are an invader&lt;/li&gt;
-&lt;li&gt;The efficiency of the marketing process, is a function of the &amp;ldquo;boundedness&amp;rdquo; of the market segment being addressed
-
-&lt;ul&gt;
-&lt;li&gt;More tightly bound, the easier it is to introduce messages into it&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Most companies fail to cross because they are overwhelmed with size of mainstream market causing them to lose their focus&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;How to start a fire
-
-&lt;ul&gt;
-&lt;li&gt;The consequences of being sales-driven during the chasm period are fatal. (one must be market driven)&lt;/li&gt;
-&lt;li&gt;secure a beachhead in a mainstream market&lt;/li&gt;
-&lt;li&gt;Establish a strong word-of-mouth reputation among buyers&lt;/li&gt;
-&lt;li&gt;Mass of informed individuals who meet from time to time and reinforce the product&amp;rsquo;s or the company&amp;rsquo;s positioning&lt;/li&gt;
-&lt;li&gt;Pragmatists want to buy from market leaders
-
-&lt;ul&gt;
-&lt;li&gt;They wait until one has been decided (which further amplifies the chasm effect)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Big fish, small pond strategy by segmenting&lt;/li&gt;
-&lt;li&gt;When crossing the chasm, focus on one or two very tightly defined market segments&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Salesforce
-
-&lt;ul&gt;
-&lt;li&gt;First and foremost to help the salespeople themselves by giving their managers direct visibility into their pipelines&lt;/li&gt;
-&lt;li&gt;Salesforce was a true productivity tool&lt;/li&gt;
-&lt;li&gt;Lesson: find a beachhead segment that is:
-
-&lt;ul&gt;
-&lt;li&gt;Big enough to matter&lt;/li&gt;
-&lt;li&gt;Small enough to win&lt;/li&gt;
-&lt;li&gt;Good fit with your crown jewels&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-4-target-the-point-of-attack&#34;&gt;Chapter 4: Target the Point of Attack&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A High-Risk, Low-Data Decision
-
-&lt;ul&gt;
-&lt;li&gt;The biggest mistake one can make in this state is to turn to numeric information as a source of refuge or reassurance&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;It will be a billion-dollar market in 2016. If we only get five percent of that market&amp;hellip;&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Informed intuition rather than analytical reason is the most trustworthy decision-making tool&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Informed Intuition
-
-&lt;ul&gt;
-&lt;li&gt;Only work with memorable images&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Target Customer Characterization: The Use of Scenarios
-
-&lt;ul&gt;
-&lt;li&gt;The place where most crossing-the-chasm marketing segmentation efforts get into trouble is at the beginning, when they focus on a target market or a target segment instead of a target customer&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-5-assemble-the-invasion-force&#34;&gt;Chapter 5: Assemble the Invasion Force&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For a given target customer and a given application, create a marketplace in which your product is the only reasonable buying proposition&lt;/li&gt;
-&lt;li&gt;There is a gap between the marketing promise made to the customer and the ability of the shipped product to fulfill that promise&lt;/li&gt;
-&lt;li&gt;But, as marketplaces develop, as we enter the &lt;em&gt;mainstream market&lt;/em&gt;, products in the center become more and more alike, and the battle shifts increasingly to the outer circles.&lt;/li&gt;
-&lt;li&gt;The pragmatist consumers want the product to be available from the outset&lt;/li&gt;
-&lt;li&gt;If the pragmatists are offered a great deal on an alternative suite of products (e.g. Google Apps) they fre some part of the whole product will be missing.&lt;/li&gt;
-&lt;li&gt;In every case, there is a risk that they are preferring an inferior product if you look at the generic product, but in every case they are preferring the superior product if you look at the whole product.&lt;/li&gt;
-&lt;li&gt;Pragmatists evaluate and buy whole products&lt;/li&gt;
-&lt;li&gt;Whole Product Planning
-
-&lt;ul&gt;
-&lt;li&gt;The biggest difference is early market will piece together a whole product in return for getting a jump on the competition&lt;/li&gt;
-&lt;li&gt;Pretending you are winning the whole product battle is a losing tactic&lt;/li&gt;
-&lt;li&gt;By leaving customer success to chance you are giving up control over your own destiny.&lt;/li&gt;
-&lt;li&gt;By thinking through customer&amp;rsquo;s problems and solutions in their entirety you can define and work to ensure that the customer gets the whole product&lt;/li&gt;
-&lt;li&gt;While you are crossing the chasm, there is no hope of any external support that is not specifically recruited by you for this purpose.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Partners and Allies
-
-&lt;ul&gt;
-&lt;li&gt;&amp;ldquo;whole product&amp;rdquo; alliances have one purpose: Accelerate the formation of whole product infrastructure within a specific target market segment in support of a segment-specific compelling reason to buy&lt;/li&gt;
-&lt;li&gt;Any company that executes a whole product strategry competently has a high probability of mainstream market success.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Recap: Tips on Whole Product Management
-
-&lt;ul&gt;
-&lt;li&gt;With large partners, try to work from the bottom up, with small ones from the top down&lt;/li&gt;
-&lt;li&gt;Partnerships ultimately work only when specific individuals from the different companies involved choose to trust each other.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;chapter-6-define-the-battle&#34;&gt;Chapter 6: Define the Battle&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Understand who or what the competition is, what their current relationship to our target customer consists of, and how we can best position ourselves to drive them out of our target market segment.&lt;/li&gt;
-&lt;li&gt;The fundamental rule of engagement is that any force can defeat any other force - if it can define the battle&lt;/li&gt;
-&lt;li&gt;Create competition where non exists.&lt;/li&gt;
-&lt;li&gt;Creating the competition
-
-&lt;ul&gt;
-&lt;li&gt;Where there is no competition, there is no market&lt;/li&gt;
-&lt;li&gt;The competition takes place at the level of corporate agenda, not at the level of competing products&lt;/li&gt;
-&lt;li&gt;In the pragmatists domain, competition is defined by comparative evaluations of products and vendors within a common category&lt;/li&gt;
-&lt;li&gt;In sum, the pragmatists are loath to buy until they can compare&lt;/li&gt;
-&lt;li&gt;focus in on the values and concerns of the pragmatists, not the visionaries&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;The competitive positioning compass
-
-&lt;ul&gt;
-&lt;li&gt;People who are supportive of your value proposition take an interest in your products and in your company. People who are skeptical do not.&lt;/li&gt;
-&lt;li&gt;The more they appreciate the technology the easier it becomes for them to support the product&lt;/li&gt;
-&lt;li&gt;You develop an early market by demonstrating a strong technology advantage and converting it to product credibility, and you develop a mainstream market leadership advantage and converting it to company credibility.&lt;/li&gt;
-&lt;li&gt;we must shift our marketing focus from celebrating product-centric value attributes to market-centric ones.&lt;/li&gt;
-&lt;li&gt;Product-Centric:
-
-&lt;ul&gt;
-&lt;li&gt;Cool Product&lt;/li&gt;
-&lt;li&gt;Easy to use&lt;/li&gt;
-&lt;li&gt;Elegant architecture&lt;/li&gt;
-&lt;li&gt;Product price&lt;/li&gt;
-&lt;li&gt;Unique functionality&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Market-Centric
-
-&lt;ul&gt;
-&lt;li&gt;Most complete whole product&lt;/li&gt;
-&lt;li&gt;Solid user experience&lt;/li&gt;
-&lt;li&gt;Compatibility with standards&lt;/li&gt;
-&lt;li&gt;Situational value&lt;/li&gt;
-&lt;li&gt;Fit for purpose&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;To sum up, it is the market-centric value system - supplemented (but not superseded) by the product-centric one - that must be the basis for the value profile of the target customers when crossing the chasm&lt;/li&gt;
-&lt;li&gt;Market alternative that user has been buying from for years&lt;/li&gt;
-&lt;li&gt;Competitor is the market alternative&lt;/li&gt;
-&lt;li&gt;Our intent is to acknowledge their technology but to differentiate from them by virtue of our own segment-specific focus.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;If you try out this exercise of choosing the competition and have trouble finding either a single, clear market alternative, or a credible second vendor leveraging your type of disruptive technology, this is a clue. It means you are probably not ready to cross the chasm.&lt;/li&gt;
-&lt;li&gt;Positioning
-
-&lt;ul&gt;
-&lt;li&gt;When most people think of positioning they are thinking about how to make their products easier to sell. But the correct goal is to make it easier to buy.&lt;/li&gt;
-&lt;li&gt;By focusing on making a product easy to buy, you are focusing on what the customers really want.&lt;/li&gt;
-&lt;li&gt;The goal of positioning, therefore, is to create a space inside the target customer&amp;rsquo;s head called &amp;ldquo;best buy for this type of situation&amp;rdquo; and to attain sole, undisputed occupancy of that space.&lt;/li&gt;
-&lt;li&gt;Potential customers cannot buy what they cannot name, nor can they seek out the product unless they know what category to look under.&lt;/li&gt;
-&lt;li&gt;Customers will not buy something until they know who is going to use it and for what purpose&lt;/li&gt;
-&lt;li&gt;Customers cannot know what to expect or what to pay for a product until they can place it in some sort of comparative context&lt;/li&gt;
-&lt;li&gt;Customers cannot be completely secure in buying a product until they know it comes from a vendor with staying power who will continue to invest in this product category. This is the final extension of positioning needed to make a product easy to buy for a conservative.&lt;/li&gt;
-&lt;li&gt;Most failed positioning statements arise from vendors being unable to see themselves from someone else&amp;rsquo;s point of view&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;The Claim: Passing the Elevator Test
-
-&lt;ul&gt;
-&lt;li&gt;Whatever your claim is, it cannot be transmitted by word of mouth&lt;/li&gt;
-&lt;li&gt;A product with an uncertain position is very difficult to buy&lt;/li&gt;
-&lt;li&gt;You won&amp;rsquo;t be able to recruit partners and allies, because they won&amp;rsquo;t be sure enough about your goals to make any meaningful commitments.&lt;/li&gt;
-&lt;li&gt;Exercise:
-
-&lt;ul&gt;
-&lt;li&gt;For (target customers)&lt;/li&gt;
-&lt;li&gt;who are disasatisfied with (current market alternative)&lt;/li&gt;
-&lt;li&gt;our product is a (product category)&lt;/li&gt;
-&lt;li&gt;That provides (compelling reason to buy)&lt;/li&gt;
-&lt;li&gt;Unlike (the product alternative)&lt;/li&gt;
-&lt;li&gt;We have assembled (key whole product features for your specific application)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;The shifting burden of truth
-
-&lt;ul&gt;
-&lt;li&gt;The most powerful evidence of leadership and likelihood of competitive victory is market share. In the absence of definitive numbers here, pragmatists will look to the quality and number of partners and allies you have assembled in your camp, and their degree of demonstrable commitment to your cause.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Whole Product Launches
-
-&lt;ul&gt;
-&lt;li&gt;The message that will resonate now is much more likely to be &amp;ldquo;Look at this hot new market&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Pragmatists and conservatives - the core of any mainstream market - like to do business with people they know&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-7-launch-the-invasion&#34;&gt;Chapter 7: Launch the Invasion&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The number-one corporate objective, when crossing the chasm, is to secure a distribution channel into the mainstream market, one with which the pragmatist customer will be comfortable&lt;/li&gt;
-&lt;li&gt;Customer-Oriented Distribution
-
-&lt;ul&gt;
-&lt;li&gt;The marketing involved is called relationship marketing&lt;/li&gt;
-&lt;li&gt;The normal approach is called solution selling&lt;/li&gt;
-&lt;li&gt;provocation-based selling, in which the vendor makes the provocative claim that the customer should redirect existing budget, typically to meet a heretofore unnoticed opportunity or impending crisis&lt;/li&gt;
-&lt;li&gt;Marketing on the Web is primarily promotional marketing, often driven by a free offer or trial period&lt;/li&gt;
-&lt;li&gt;Once the user clicks on a link, the state of the relationship changes to a direct response sales strategy&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/books/crossing-the-chasm/</guid>
+      <description>Absolutely fantastic book. I forgot to write a review for it initially and now (6 months later) I finally am getting back to it. I can say that over the past 6 months, this is the book I&#39;ve referenced the most (save for &amp;ldquo;A Song of Ice and Fire series&amp;rdquo; due to Game of Thrones&amp;rsquo; penultimate season) and couldn&#39;t recommend it higher.
+Summary Chapter 1: High-Tech Marketing Illusion  In academic terms, such change sensitive products are called &amp;ldquo;discontinuous&amp;rdquo; or &amp;ldquo;disruptive innovations&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Made to Stick</title>
-      <link>http://www.nedrockson.com/post/books/made-to-stick/</link>
+      <link>http://www.nedrockson.com/posts/books/made-to-stick/</link>
       <pubDate>Mon, 23 Jan 2017 12:52:46 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/books/made-to-stick/</guid>
-      <description>
-
-&lt;p&gt;An absolutely brilliant book detailing the six major qualities of a sticky idea: Simplicity, Unexpectedness, Concreteness, Credibility, Emetional, Stories. The Heath brothers investigate each of these six qualities in detail, investigating good and bad examples and paring their findings with academic studies. Not quite as academic as &lt;a href=&#34;../predictably-irrational&#34;&gt;Predictably Irrational&lt;/a&gt; but a lot of the same themes show up.&lt;/p&gt;
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;h3 id=&#34;chapter-1-simple&#34;&gt;Chapter 1: Simple&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Stick to the prime objective&lt;/li&gt;
-&lt;li&gt;Southwest airlines is &lt;strong&gt;THE&lt;/strong&gt; low-fare airline
-
-&lt;ul&gt;
-&lt;li&gt;Answers questions all the way down the org chart&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Burying the lead
-
-&lt;ul&gt;
-&lt;li&gt;News should start with most important info and then decrease in importance down the page&lt;/li&gt;
-&lt;li&gt;Burying the lead happens when most important points slip down the page&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;If you say 3 things, you don&amp;rsquo;t say anything
-
-&lt;ul&gt;
-&lt;li&gt;Bill Clinton (1992) campaign must have one platform&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;It&amp;rsquo;s the economy, stupid!&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Decision paralysis
-
-&lt;ul&gt;
-&lt;li&gt;When given more &lt;em&gt;important&lt;/em&gt; options, the vital one stands out
-
-&lt;ul&gt;
-&lt;li&gt;Note that this doesn&amp;rsquo;t work out when all options are equivalent&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Due to prioritization&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Names, names, names
-
-&lt;ul&gt;
-&lt;li&gt;Local newspaper about names, even at financial expense&lt;/li&gt;
-&lt;li&gt;Share message so it can percolate through org chart&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Simple = core + compact
-
-&lt;ul&gt;
-&lt;li&gt;Not sound bites, but &lt;strong&gt;proverbs&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Curse of Knowledge
-
-&lt;ul&gt;
-&lt;li&gt;Difficult to imagine not knowing information you already know&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Visual proverb was palm pilot &amp;ndash; creator carried it around in his pocket and used it to help guide product decisions&lt;/li&gt;
-&lt;li&gt;Pomelo schema
-
-&lt;ul&gt;
-&lt;li&gt;Easier to remember &amp;ldquo;like a grapefruit&amp;rdquo; than &amp;ldquo;citrus based fruit with some properties&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Complexity from simplicity
-
-&lt;ul&gt;
-&lt;li&gt;Fine line between accuracy and simplicity&lt;/li&gt;
-&lt;li&gt;Think Bohr model of atom when talking to child &amp;ndash; not accurate completely, but simple and easy to digest&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Schemas in Hollywood =&amp;gt; Speed is Die Hard on a bus&lt;/li&gt;
-&lt;li&gt;Generative analogies
-
-&lt;ul&gt;
-&lt;li&gt;Disneyland employs cast members instead of employees&lt;/li&gt;
-&lt;li&gt;Doesn&amp;rsquo;t always work &amp;ndash; think sandwich artists at Subway&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-2-unexpected&#34;&gt;Chapter 2: Unexpected&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Surprise gets attention; interest keeps attention
-
-&lt;ul&gt;
-&lt;li&gt;avoid gimmickry (wolves attack marching band in a commercial; what were they advertising?)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Find core of idea: What&amp;rsquo;s surprising?
-
-&lt;ul&gt;
-&lt;li&gt;People have inherent guessing machines. Try and break their guessing machines&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Tire chains at Nordstrom&amp;rsquo;s
-
-&lt;ul&gt;
-&lt;li&gt;Core: Great customer service&lt;/li&gt;
-&lt;li&gt;Surprise: Nordies (employees) will take back things they don&amp;rsquo;t even sell!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Journalism
-
-&lt;ul&gt;
-&lt;li&gt;Find hidden sticky points within the facts&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;The lead is there won&amp;rsquo;t be school on Thursday!&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Keeping attention
-
-&lt;ul&gt;
-&lt;li&gt;Show people that they have gaps in their knowledge and then fill them&lt;/li&gt;
-&lt;li&gt;Show people enough information such that they have gaps &amp;ndash; think NCAA football about schools we don&amp;rsquo;t care about&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-3-concrete&#34;&gt;Chapter 3: Concrete&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fox and sour grapes: concreteness of story keeps it stuck
-
-&lt;ul&gt;
-&lt;li&gt;Fables in general are very concrete&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;The Nature Conservancy tried to get donors using abstract donate to save important land
-
-&lt;ul&gt;
-&lt;li&gt;Hard for people to donate to arbitrary land&lt;/li&gt;
-&lt;li&gt;Once a name is attached to un-interesting land (think Silicon Valley watershed) such as The Mount Hamilton Wilderness, people want to support&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Understanding subtraction
-
-&lt;ul&gt;
-&lt;li&gt;Schools in Asia generally outperform US&lt;/li&gt;
-&lt;li&gt;Likely because they use concrete terms such as people, things, etc (think # of apples in a subtraction problem) while in US we skew abstract&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Concrete is memorable =&amp;gt; Concrete accounting class led people to remember more than abstract&lt;/li&gt;
-&lt;li&gt;Velcro theory =&amp;gt; more hooks, stronger grab&lt;/li&gt;
-&lt;li&gt;Brown eyes vs. Blue eyes to teach about discrimination&lt;/li&gt;
-&lt;li&gt;Blueprint vs. machine
-
-&lt;ul&gt;
-&lt;li&gt;Engineers make things continually more abstract while machine workers can&amp;rsquo;t fully grok&lt;/li&gt;
-&lt;li&gt;Since both understand machine, should try to speak in same vernacular (machines)&lt;/li&gt;
-&lt;li&gt;Lowest common denominator language&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Concrete goals lead to better coordination
-
-&lt;ul&gt;
-&lt;li&gt;Not &amp;ldquo;best in world&amp;rdquo;, but &amp;ldquo;X that can do Y, Z, A&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Go computers =&amp;gt; concrete pitch to VCs that had others arguing instead of entrepreneur pitching.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-4-credible&#34;&gt;Chapter 4: Credible&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ulcers are bacterial was a research conclusion that couldn&amp;rsquo;t be sold
-
-&lt;ul&gt;
-&lt;li&gt;Researchers were from second tier university and had no credibility&lt;/li&gt;
-&lt;li&gt;In order to make people believe, had to ingest bacteria themselves&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Antiauthorities
-
-&lt;ul&gt;
-&lt;li&gt;Often far more credible than authorities&lt;/li&gt;
-&lt;li&gt;Think smoker for an anti-smoking campaign&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Power of details
-
-&lt;ul&gt;
-&lt;li&gt;Stories told with details are more believable&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Relationships are better than numbers (BBs in a bucket for warheads)
-
-&lt;ul&gt;
-&lt;li&gt;People don&amp;rsquo;t remember total numbers but they remember that the number was big&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Human scale &amp;gt; non-human scale
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;rsquo;s difficult to imagine distance from sun to Earth, but from NY -&amp;gt; LA is at least visualizable.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Statistics are very credible, but often are forgotten&lt;/li&gt;
-&lt;li&gt;Shark attack vs. deers in the road
-
-&lt;ul&gt;
-&lt;li&gt;People afraid of sharks, but it turns out not many kill humans. More likely to die from hitting a deer in the road.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Sinatra test - &amp;ldquo;If I can make it here, I can make it anywhere&amp;rdquo;
-
-&lt;ul&gt;
-&lt;li&gt;Are there versions of this to use for credibility?&lt;/li&gt;
-&lt;li&gt;Safexpress delivered Harry Potter book &amp;ndash; passed Sinatra test to handle precious cargo&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Internal Credibility - &lt;strong&gt;Details&lt;/strong&gt;, &lt;strong&gt;Statistics&lt;/strong&gt;, &lt;strong&gt;Sinatra Test&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;External Credibility - Authorities, antiauthorities&lt;/li&gt;
-&lt;li&gt;Audience Credibility - Try it yourself; Falsifiable claim
-
-&lt;ul&gt;
-&lt;li&gt;Testable credentials allows people to try out an idea for themselves&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;NBA orientation had HIV positive women pick up on NBA rookies
-
-&lt;ul&gt;
-&lt;li&gt;What&amp;rsquo;s more likely to stick &amp;ndash; telling them about someone getting fooled or getting fooled themselves?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Obvious forms of credibility (external validation and statistics) are not always the best
-
-&lt;ul&gt;
-&lt;li&gt;A few vivid details might be more persuasive than statistics&lt;/li&gt;
-&lt;li&gt;An antiauthority might work better than an authority&lt;/li&gt;
-&lt;li&gt;A single story that passes the Sinatra Test might overcome a mountain of skepticism.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-5-emotional&#34;&gt;Chapter 5: Emotional&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mother Theresa: When it comes to our hearts, one individual trumps the masses.
-
-&lt;ul&gt;
-&lt;li&gt;When people provided with both 1 person and the masses, they skew toward response for the masses&lt;/li&gt;
-&lt;li&gt;When primed to think analytically, they skew toward masses. When primed to think emotionally, skew toward the one. Similar to &lt;a href=&#34;../predictably-irrational/&#34;&gt;Social vs. Market Norms in Predictably Irrational&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;People tend to overuse any idea or concept that delivers an emotional kick.
-
-&lt;ul&gt;
-&lt;li&gt;Labeled as &amp;ldquo;Semantic Stretch&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;The most basic way to make people care is to form an association between something they don&amp;rsquo;t yet care about and something they do care about.&lt;/li&gt;
-&lt;li&gt;When everybody taps into the same thing, an arms race emerges&lt;/li&gt;
-&lt;li&gt;One reliable way of making people care is  by invoking self-interest&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;People don&amp;rsquo;t buy quarter inch drill bits, they buy quarter-inch holes so they can hang their children&amp;rsquo;s pictures.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;WIIFY (What&amp;rsquo;s in it for you) should be a central aspect of every speech.&lt;/li&gt;
-&lt;li&gt;Imagining things happen make our brains react as though things really happened.&lt;/li&gt;
-&lt;li&gt;Maslow
-
-&lt;ul&gt;
-&lt;li&gt;When people talk about self-interest, they typically invoke the Physical, Security, and Esteem layers.&lt;/li&gt;
-&lt;li&gt;People invoke Maslow&amp;rsquo;s basement because we believe everyone else is living there while we&amp;rsquo;re in a penthouse.&lt;/li&gt;
-&lt;li&gt;We believe we are motivated by self-esteem, but others are motivated by down payments.&lt;/li&gt;
-&lt;li&gt;Job vs. Mission&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Two ways to reason through value
-
-&lt;ul&gt;
-&lt;li&gt;Basic economic value - self interest. Weigh cost and benefits&lt;/li&gt;
-&lt;li&gt;Second is group interest. Instead of &amp;ldquo;What&amp;rsquo;s in it for me&amp;rdquo; it is &amp;ldquo;What&amp;rsquo;s in it for my group.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Always structuring our ideas around self-interest is like always painting with one color. It&amp;rsquo;s stifling for us and uninspiring for others.&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Using higher levels of Maslow&amp;rsquo;s hierarchy tends to inspire people more.&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t mess with Texas
-
-&lt;ul&gt;
-&lt;li&gt;Used an identity appeal which worked far better than self-interest appeal.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Three strategies for making people care
-
-&lt;ul&gt;
-&lt;li&gt;Using associations (or avoiding them)&lt;/li&gt;
-&lt;li&gt;Appealing to self-interest&lt;/li&gt;
-&lt;li&gt;Appealing to adentity&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Curse of Knowledge can be worked through by continually asking why (Toyota asks 5 Whys)&lt;/li&gt;
-&lt;li&gt;How do we get people to care?
-
-&lt;ul&gt;
-&lt;li&gt;We get them to take off Analytical Hats&lt;/li&gt;
-&lt;li&gt;We create empathy for specific individuals&lt;/li&gt;
-&lt;li&gt;We show how our ideas are associated with things that people already care about&lt;/li&gt;
-&lt;li&gt;We appeal to their self-interest, but we also appeal to their identities; Not only to the people they are right now but also to the people they would like to be&lt;/li&gt;
-&lt;li&gt;Stay clear of Maslow&amp;rsquo;s Basement&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-6-stories&#34;&gt;Chapter 6: Stories&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A credible idea makes people believe. An emotional idea makes people care. The right stories make people act
-
-&lt;ul&gt;
-&lt;li&gt;Nurse in NICU with stethoscope&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;With stories, give people enough information so they could see what they would do
-
-&lt;ul&gt;
-&lt;li&gt;Copy machine technicians&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;The line between a story&amp;rsquo;s audience and a story&amp;rsquo;s protagonist is a bit blurry.
-
-&lt;ul&gt;
-&lt;li&gt;When listening to a story, we believe ourselves to be in the story.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Simulating past events is much more helpful than simulating future outcomes
-
-&lt;ul&gt;
-&lt;li&gt;People who focused on how they got into bad situations fare better than people who focus on how they&amp;rsquo;ll get out of them.&lt;/li&gt;
-&lt;li&gt;The more that training simulates the actions we must take in the world, the more effective it will be. (Flight simulators, etc)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Jared @ Subway
-
-&lt;ul&gt;
-&lt;li&gt;This story is not sumuch a flight simulator as a pep talk&lt;/li&gt;
-&lt;li&gt;Inspiration drives action, as does simulation&lt;/li&gt;
-&lt;li&gt;Jared far more sticky than &amp;ldquo;7 Under 6&amp;rdquo;, although both are going after same idea at its core&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Spotting ideas as powerful (sometimes moreso) than creating&lt;/li&gt;
-&lt;li&gt;Three basic story plots:
-
-&lt;ul&gt;
-&lt;li&gt;Challenge plot inspires us by appealing to our perserverance and courage. Make us want to work harder, take on new challenges, overcome obstacles. &lt;strong&gt;Inspire us to act&lt;/strong&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Underdog story; rags-to-riches; triumph of willpower over adversity&lt;/li&gt;
-&lt;li&gt;Star Wars; Jared; American Revolution&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Connection Plot is a story about people who develop a relationship that bridges a gap. They inspire us in social ways. They make us want to help others, be more tolerant of othrers, work with others, love others.
-
-&lt;ul&gt;
-&lt;li&gt;Chicken Soup series&lt;/li&gt;
-&lt;li&gt;If telling story at company party, go with connection plot, kicking off a project more of a challenge plot&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Creativity Plot Involves someone making a mental breakthrough, solving a long-standing puzzle or attacking a problem in an innovative way. They make us want to do something different, to be creative, to experiment with new approaches.
-
-&lt;ul&gt;
-&lt;li&gt;Apple on Newton&amp;rsquo;s head; McGyver&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;How wonderful, they&amp;rsquo;ve stolen my idea. It&amp;rsquo;s become their idea!&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Springboard stories
-
-&lt;ul&gt;
-&lt;li&gt;If you hit listeners between the eyes with the point directly, they respond by fighting back.&lt;/li&gt;
-&lt;li&gt;Work in harmony with people acting adversarily&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Conference storybook
-
-&lt;ul&gt;
-&lt;li&gt;Researcher distilled all stories told at a conference into a book. Presenters were unhappy&lt;/li&gt;
-&lt;li&gt;Curse of Knowledge - they wanted to conclusions to be written down, but forget that listeners don&amp;rsquo;t have their knowledge.&lt;/li&gt;
-&lt;li&gt;They remember the experiences that taught them those lessons.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Hardest part of using stories effectively is making sure that they&amp;rsquo;re Simple.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-7-what-sticks&#34;&gt;Chapter 7: What Sticks&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;ldquo;Is the audience&amp;rsquo;s version of my message still core?&amp;rdquo;
-
-&lt;ul&gt;
-&lt;li&gt;Messages can change (think &amp;ldquo;Elementary, my dear Watson&amp;rdquo; was never spoken by Sherlock)&lt;/li&gt;
-&lt;li&gt;Ultimately the test of our success as idea creators isn&amp;rsquo;t whether people parrot our words but whether we achieve our goals.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;If you can spot a great story you&amp;rsquo;ll always trump a great creator&lt;/li&gt;
-&lt;li&gt;Villains to speaking &amp;amp; sticking
-
-&lt;ul&gt;
-&lt;li&gt;Burying the lead - people like statistics so that can bury the lead&lt;/li&gt;
-&lt;li&gt;Focus on presentation instead of message - Trying to be charismatic and focus on diction can misconstrue the point&lt;/li&gt;
-&lt;li&gt;Decision paralysis - Must find the core, but there may be too many things to focus on&lt;/li&gt;
-&lt;li&gt;Curse of Knowledge - &lt;em&gt;archvillain&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Getting a message across has two stages
-
-&lt;ul&gt;
-&lt;li&gt;Answer - Coming up with the correct answer&lt;/li&gt;
-&lt;li&gt;Telling others - Harest part because work done in getting to the answer phase will backfire when Telling Others
-
-&lt;ul&gt;
-&lt;li&gt;Often we tend to communicate to audience as if they were us&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Communication Framework: Make the audience
-
-&lt;ul&gt;
-&lt;li&gt;1. Pay Attention (Unexpected)&lt;/li&gt;
-&lt;li&gt;2. Understand and Remember it (Concrete)&lt;/li&gt;
-&lt;li&gt;3. Agree / Believe (Credible)&lt;/li&gt;
-&lt;li&gt;4. Care (Emotional)&lt;/li&gt;
-&lt;li&gt;5. Be able to act on it (Story)&lt;/li&gt;
-&lt;li&gt;SO: Rather than guess about whether people will understand our ideas, we should ask &amp;ldquo;Is it concrete?&amp;rdquo; Rather than speculate about whether peple will care, we should ask, &amp;ldquo;Is it emotional?&amp;rdquo; Does it get out of Maslow&amp;rsquo;s basement? Does it force people to put on an Analytical Hat or feel empathy?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/books/made-to-stick/</guid>
+      <description>An absolutely brilliant book detailing the six major qualities of a sticky idea: Simplicity, Unexpectedness, Concreteness, Credibility, Emetional, Stories. The Heath brothers investigate each of these six qualities in detail, investigating good and bad examples and paring their findings with academic studies. Not quite as academic as Predictably Irrational but a lot of the same themes show up.
+Summary Chapter 1: Simple  Stick to the prime objective Southwest airlines is THE low-fare airline  Answers questions all the way down the org chart   Burying the lead  News should start with most important info and then decrease in importance down the page Burying the lead happens when most important points slip down the page   If you say 3 things, you don&#39;t say anything  Bill Clinton (1992) campaign must have one platform &amp;ldquo;It&#39;s the economy, stupid!</description>
     </item>
     
     <item>
       <title>Predictably Irrational</title>
-      <link>http://www.nedrockson.com/post/books/predictably-irrational/</link>
+      <link>http://www.nedrockson.com/posts/books/predictably-irrational/</link>
       <pubDate>Tue, 17 Jan 2017 09:26:01 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/books/predictably-irrational/</guid>
-      <description>
-
-&lt;p&gt;Overall a fantastic book detailing human behavior from a psychological and economic point of view. My favorite chapter was Cost of Social Norms, as it opened my eyes to a new point of view on interactions in a professional context. Dan Ariely does an amazing job detailing caveats of human irrationality throughout the book and I would say a must read for anyone.&lt;/p&gt;
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;h3 id=&#34;chapter-1-the-truth-about-relativity&#34;&gt;Chapter 1: The Truth About Relativity&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Objectivity is nearly impossible
-
-&lt;ul&gt;
-&lt;li&gt;how much is something actually worth?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;People make relative decisions on worth.
-
-&lt;ul&gt;
-&lt;li&gt;They like the better of some options but not the best&lt;/li&gt;
-&lt;li&gt;Think bread makers - when they don&amp;rsquo;t sell because they are new, introduce a second, more expensive bread maker and the cheaper one will sell.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-2-the-fallacy-of-supply-demand&#34;&gt;Chapter 2: The Fallacy of Supply &amp;amp; Demand&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Demand can be manufactured
-
-&lt;ul&gt;
-&lt;li&gt;Black pearls made in high demand simply by positioning.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Anchoring - the first price you hear foro a product or category tends to stick.&lt;/li&gt;
-&lt;li&gt;Starbucks
-
-&lt;ul&gt;
-&lt;li&gt;Positioned itself differently to remove Dunkin Donuts&amp;rsquo; price anchor for coffee (why should I pay $4 for a cup of coffee?)&lt;/li&gt;
-&lt;li&gt;Once you go a few times, your decision making for going again is akin to seeing a line out the front door (it&amp;rsquo;s clearly popular because I&amp;rsquo;ve been.)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Tom Sawyer showed a low supply product (painting fence) and raised demand.&lt;/li&gt;
-&lt;li&gt;What if we are the sum of our first, naïve, myopic decisions?&lt;/li&gt;
-&lt;li&gt;Continually question our decisions
-
-&lt;ul&gt;
-&lt;li&gt;How much benefit does something actually bring?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Prices can influence willingness to pay
-
-&lt;ul&gt;
-&lt;li&gt;Demand is not entirely separate from supply&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;People like to make well thought out decisions but want to arrive at a, probably, preconceived conclusion&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-3-cost-of-zero-cost&#34;&gt;Chapter 3: Cost of Zero Cost&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Zero!&lt;/code&gt; is a powerful marketing tactic&lt;/li&gt;
-&lt;li&gt;The laws of demand tend to break down with &lt;code&gt;Zero!&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;So powerful, sometimes (or often) makes consumers miscalculate outcomes&lt;/li&gt;
-&lt;li&gt;All transactions have upside and downside. Free has no downside with some guaranteed upside.&lt;/li&gt;
-&lt;li&gt;AMZN shipping for free vs $.20
-
-&lt;ul&gt;
-&lt;li&gt;Massive difference in spending when free, even though 20 cents (1 Franc) was next to nothing.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Zero calories vs. 1 calorie&lt;/li&gt;
-&lt;li&gt;Paying for dinner
-
-&lt;ul&gt;
-&lt;li&gt;Each incremental dollar paid is less pain (diminishing sensitivity) and thus it&amp;rsquo;s always better for one person to pay the whole bill instead of split.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-4-the-cost-of-social-norms&#34;&gt;Chapter 4: The Cost of Social Norms&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Social norms vs. market norms
-
-&lt;ul&gt;
-&lt;li&gt;Social much stronger but they cannot be mixed&lt;/li&gt;
-&lt;li&gt;Once market norms are brought in, social norms will likely not return&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Do work as favor is okay &amp;amp; fair wage okay, but for small $ amount won&amp;rsquo;t work&lt;/li&gt;
-&lt;li&gt;Gifts work, but not when a price tag is attached&lt;/li&gt;
-&lt;li&gt;When price tag attached, gifts just the same as market norms&lt;/li&gt;
-&lt;li&gt;Doing tasks after having heard sentences like &amp;ldquo;High paying salary&amp;rdquo; lead people to be more market minded &amp;amp; less social (compared to phrases like &amp;ldquo;It&amp;rsquo;s cold outside&amp;rdquo;)
-
-&lt;ul&gt;
-&lt;li&gt;Ask for help less&lt;/li&gt;
-&lt;li&gt;Less likely to offer help&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Thus&lt;/strong&gt; even mentioning prices move us into market norms.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Picking up kids @ daycare: social vs $ penalty
-
-&lt;ul&gt;
-&lt;li&gt;Once reversed from social -&amp;gt; market -&amp;gt; social, the parental behavior didn&amp;rsquo;t change.&lt;/li&gt;
-&lt;li&gt;Social norm goes away for a long time.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Gifts vs. Cash bonuses&lt;/li&gt;
-&lt;li&gt;Police &amp;amp; firefighters vs. border / customs agents&lt;/li&gt;
-&lt;li&gt;Education goals&lt;/li&gt;
-&lt;li&gt;Burning man &amp;amp; sharing economy&lt;/li&gt;
-&lt;li&gt;Seinfeld maid &amp;amp; dating.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-5-the-power-of-a-free-cookie&#34;&gt;Chapter 5: The Power of a Free Cookie&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Filene&amp;rsquo;s basement dress sale
-
-&lt;ul&gt;
-&lt;li&gt;All social norms go out the window b/c of huge savings&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Cookies from coworker
-
-&lt;ul&gt;
-&lt;li&gt;When free, I&amp;rsquo;ll consider hunger, calories, love of cookies, social pressures of taking too many.&lt;/li&gt;
-&lt;li&gt;When they cost $0.05 I won&amp;rsquo;t consider social norms&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Starburst experiment
-
-&lt;ul&gt;
-&lt;li&gt;$0.01 per candy obeys demand laws&lt;/li&gt;
-&lt;li&gt;Free people take FEWER! (odd because doesn&amp;rsquo;t follow rational market economics)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;When price is not part of exchange, we become less selfish maximizers &amp;amp; care about welfare of others
-
-&lt;ul&gt;
-&lt;li&gt;Last sushi piece&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Effort is somewhere between market and social norms&lt;/li&gt;
-&lt;li&gt;Carbon taxes skews the line because it may increase carbon.&lt;/li&gt;
-&lt;li&gt;When emotions are piqued it&amp;rsquo;s hard to take others emotions into account.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-6-influence-of-arrousal&#34;&gt;Chapter 6: Influence of Arrousal&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When aroused, choices are different than when not
-
-&lt;ul&gt;
-&lt;li&gt;Hard to predict behavior&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Maybe true for other emotions as well&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-7-the-problem-of-procrastination-self-control&#34;&gt;Chapter 7: The Problem of Procrastination &amp;amp; Self Control&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Credit usually defaults or becomes expensive due to procrastination&lt;/li&gt;
-&lt;li&gt;US personal saving rates are &amp;lt; 0%&lt;/li&gt;
-&lt;li&gt;Impulses divert from long term goals&lt;/li&gt;
-&lt;li&gt;Pro - for; cras -&amp;gt; tomorrow&lt;/li&gt;
-&lt;li&gt;Study allowing students to set deadlines (A) vs imposed deadlines (B) vs no deadlines (end of semester) &amp;copy;
-
-&lt;ul&gt;
-&lt;li&gt;Grades, in order, were B, A, C&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Parental voice causes us to pay attention&lt;/li&gt;
-&lt;li&gt;Precommitting to healthcare (e.g. refunded deposit to get cholesterol checked) may help us actually get it done.&lt;/li&gt;
-&lt;li&gt;Ford cars needed checkups, but differed per model
-
-&lt;ul&gt;
-&lt;li&gt;Made the 5,000; 10,000; 25,000 mile checkups
-
-&lt;ul&gt;
-&lt;li&gt;Perfect mix of authoritative &amp;amp; self imposed&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Initially a tough sell internally b/c mustang is different from F-150&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-8-the-high-price-of-ownership&#34;&gt;Chapter 8: The High Price of Ownership&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Duke basketball tickets
-
-&lt;ul&gt;
-&lt;li&gt;People stand inline for a long long time to join a lottery&lt;/li&gt;
-&lt;li&gt;Those who get tix value the tickets really high because of an emotional response&lt;/li&gt;
-&lt;li&gt;Those who don&amp;rsquo;t value them really low because they see the monetary value.&lt;/li&gt;
-&lt;li&gt;Difference is large ($2400 vs. $175)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;We fall in ove with what we already have&lt;/li&gt;
-&lt;li&gt;We focus on what we may lose instead of gain (when selling)&lt;/li&gt;
-&lt;li&gt;We assume others will see transaction from our perspective&lt;/li&gt;
-&lt;li&gt;Virtual ownership
-
-&lt;ul&gt;
-&lt;li&gt;Think long running eBay auctions (like I already own it)&lt;/li&gt;
-&lt;li&gt;Upgrading for free for a limited time (downgrade rarely happens)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Moving from ownership to pre ownership feels like a loss&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-9-keeping-doors-open&#34;&gt;Chapter 9: Keeping Doors Open&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We work hard to keep doors open
-
-&lt;ul&gt;
-&lt;li&gt;Buy bless and whistles just in case&lt;/li&gt;
-&lt;li&gt;Picking majors in school&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Maximizing profit while clicking (game, experiment)
-
-&lt;ul&gt;
-&lt;li&gt;People always try to keep doors open even if those doors don&amp;rsquo;t maximize profit&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Sad side are when we don&amp;rsquo;t realize there are slowly closing doors
-
-&lt;ul&gt;
-&lt;li&gt;Kids growing up&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Donkey starving to death between two bales of hay&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-10-effect-of-expectations&#34;&gt;Chapter 10: Effect of expectations&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Beer test with adding balsamic vinegar
-
-&lt;ul&gt;
-&lt;li&gt;If not told, peple prefer balsamic to crappy beer&lt;/li&gt;
-&lt;li&gt;If told about vinegar before, people hate it&lt;/li&gt;
-&lt;li&gt;If told about afterward, people like it as much as if never told&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Expectations drive results
-
-&lt;ul&gt;
-&lt;li&gt;Joshua Bell in subway&lt;/li&gt;
-&lt;li&gt;Do settings really matter (probably)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Names on menus&lt;/li&gt;
-&lt;li&gt;Pepsi Challenge&lt;/li&gt;
-&lt;li&gt;Expectations &amp;amp; stereotypes
-
-&lt;ul&gt;
-&lt;li&gt;Asians good at math, women bad at math; When Asian women asked to do math, it depended on precondition &amp;ndash; were they thinking about their cultural background or gender background before?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Alexander Pope: Blessed is he who expects nothing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-11-the-power-of-price&#34;&gt;Chapter 11: The Power of Price&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Placebo surgeries can sometimes prove the surgery has not added benefit&lt;/li&gt;
-&lt;li&gt;A more expensive medication (even if medication is a placebo) has a stronger effect&lt;/li&gt;
-&lt;li&gt;If a placebo is primed (SoBe causes better test taking) the higher price still has a stronger effect&lt;/li&gt;
-&lt;li&gt;Divine touch from kings&lt;/li&gt;
-&lt;li&gt;Physicians prescribe placebos a lot (antibiotic placebos for viral infections)&lt;/li&gt;
-&lt;li&gt;Are placebos good or bad?
-
-&lt;ul&gt;
-&lt;li&gt;W/o using placebos we can&amp;rsquo;t improve or test&lt;/li&gt;
-&lt;li&gt;W/ placebos people may die now&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Airborne was placebo that worked (but ended up being screwed up by warnings on the packaging.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-12-the-cycle-of-distrust&#34;&gt;Chapter 12: The Cycle of Distrust&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Spam email; fine print; marketing ploys&lt;/li&gt;
-&lt;li&gt;Free money experiment
-
-&lt;ul&gt;
-&lt;li&gt;Giving away free money (printed on sign how much)&lt;/li&gt;
-&lt;li&gt;Only 1% of people walking by stopped for $1, only 19% for $50&lt;/li&gt;
-&lt;li&gt;All believed there was a catch&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Tragedy of the commons &amp;amp; game theory&lt;/li&gt;
-&lt;li&gt;Snake oil salesmen&lt;/li&gt;
-&lt;li&gt;Lying on dating sites &amp;ndash; You&amp;rsquo;re expected to lie so when you don&amp;rsquo;t it&amp;rsquo;s bad&lt;/li&gt;
-&lt;li&gt;True statements when &amp;ldquo;endorsed&amp;rdquo; by companies (DNC, RNC, P&amp;amp;G) breed mistrust
-
-&lt;ul&gt;
-&lt;li&gt;Same statements w/o endorsements do not.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Listening to speakers with brochure vs consumer reports &amp;ndash; people tended to think the speakers were better with consumer report instead of brochure.&lt;/li&gt;
-&lt;li&gt;Transparency is rare for a company&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-13-the-context-of-our-character-part-1&#34;&gt;Chapter 13: The Context of Our Character, Part 1&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;People steal, a lot&lt;/li&gt;
-&lt;li&gt;Difference between robbing &amp;amp; white collar crime
-
-&lt;ul&gt;
-&lt;li&gt;Think over deducting on taxes vs. bank robbery&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Experiments tempting people to cheat
-
-&lt;ul&gt;
-&lt;li&gt;When tempted, people cheat a little, but could do a lot more&lt;/li&gt;
-&lt;li&gt;When asked to remember 10 commandments, no cheating!
-
-&lt;ul&gt;
-&lt;li&gt;Even if they didn&amp;rsquo;t know more than a couple of them &amp;ndash; just the thought of a code of laws was enough.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Seems superego keeps people from cheating egregiously
-
-&lt;ul&gt;
-&lt;li&gt;Cheating a little does not activate superego&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Problem is some cheat a lot&lt;/li&gt;
-&lt;li&gt;Could professional oaths help solve issue?
-
-&lt;ul&gt;
-&lt;li&gt;Degradation of proffesions with oaths (doctors, lawyers)&lt;/li&gt;
-&lt;li&gt;Seems people are tempted to cheat for personal gains (Tragedy of Commons)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Asking people to sign a non-existant honor code stopped cheating
-
-&lt;ul&gt;
-&lt;li&gt;Thus, just thinking about existence of a code stops people&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-14-the-context-of-our-character-part-2&#34;&gt;Chapter 14: The Context of Our Character, Part 2&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dollar bills make people more honest&lt;/li&gt;
-&lt;li&gt;Removing direct link to money (coca cola in fridge) makes people less so&lt;/li&gt;
-&lt;li&gt;Would Enron guys have robbed from old ladies? (no) but they took money from them indirectly from pension funds.&lt;/li&gt;
-&lt;li&gt;Experiment: Give tokens worth $.50 that could be exchanged 12 feet away vs giving $.50 directly. Way more cheating in former case.&lt;/li&gt;
-&lt;li&gt;Cheating when reporting losses, wardrobing, expense reports&lt;/li&gt;
-&lt;li&gt;Human nature can cause people to be dishonest when not directly connected with $$$&lt;/li&gt;
-&lt;li&gt;Frequent flyer miles BS with airlines; Credit card companies
-
-&lt;ul&gt;
-&lt;li&gt;Essentially robbery, but not directly so feels more okay.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;What happens when we no longer use cash directly?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-15-beer-free-lunches&#34;&gt;Chapter 15: Beer &amp;amp; Free Lunches&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;People try to make unique orders (in our culture, not necessarily in others)&lt;/li&gt;
-&lt;li&gt;Best utility when ordering is to order first, or at least say your desire out load to get &amp;ldquo;dibs&amp;rdquo; on it.&lt;/li&gt;
-&lt;li&gt;Free lunches shouldn&amp;rsquo;t exist because they should be eaten already&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/books/predictably-irrational/</guid>
+      <description>Overall a fantastic book detailing human behavior from a psychological and economic point of view. My favorite chapter was Cost of Social Norms, as it opened my eyes to a new point of view on interactions in a professional context. Dan Ariely does an amazing job detailing caveats of human irrationality throughout the book and I would say a must read for anyone.
+Summary Chapter 1: The Truth About Relativity  Objectivity is nearly impossible  how much is something actually worth?</description>
     </item>
     
     <item>
       <title>Daily Stoicism: Circle of Control</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/circle-of-control/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/circle-of-control/</link>
       <pubDate>Mon, 16 Jan 2017 16:48:33 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/circle-of-control/</guid>
-      <description>&lt;p&gt;After falling behind doing one of these a day by about a week and doing a lot of reflection in a single day, I&amp;rsquo;m noticing a ton of repetition. In fact, circle of control was something that I reflected on &lt;a href=&#34;../control-and-choice/&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;../if-you-want-to-be-steady/&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;../if-you-want-to-be-unsteady/&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;../what-we-control-what-we-dont/&#34;&gt;here&lt;/a&gt;. Not that this doesn&amp;rsquo;t bear repeating, but circle of choice has started to sound like the circle of dead horses.&lt;/p&gt;
-
-&lt;p&gt;The author brings up a new point today though about how a stoic only controls his mind. His body even lives outside of his control. A calming conclusion for existential dread around singularity.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/circle-of-control/</guid>
+      <description>After falling behind doing one of these a day by about a week and doing a lot of reflection in a single day, I&#39;m noticing a ton of repetition. In fact, circle of control was something that I reflected on here, here, here, and here. Not that this doesn&#39;t bear repeating, but circle of choice has started to sound like the circle of dead horses.
+The author brings up a new point today though about how a stoic only controls his mind.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: The One Path to Serenity</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/one-path-to-serenity/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/one-path-to-serenity/</link>
       <pubDate>Mon, 16 Jan 2017 16:25:11 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/one-path-to-serenity/</guid>
-      <description>&lt;p&gt;Or Serenity Now!&lt;/p&gt;
-
-&lt;p&gt;If we trust all of the teachings up until today, the stoics leave us with the sound conclusion that the optimal way forward follows from us giving up everything outside of sphere of choice. Allowing ourselves to trust that fate or luck or God controls all else.&lt;/p&gt;
-
-&lt;p&gt;I struggle with this conclusion, not because I disagree with it but because it disagrees with my unrelenting existentialism. My sphere of influence never feels like a discrete function but a continuum that decays asymptotically. This belief structure allows me to tackle obstacles that might appear as immovable (not to say I view myself as a super hero, but it amazes me sometimes what I can accomplish when I question everything.)&lt;/p&gt;
-
-&lt;p&gt;For instance, today I looked at my credit card bill and found Google charged me $400 for a Google Cloud Platform account I closed almost a year ago. Until now Google had charged me $400 per month without my knowledge because I still had credits on my account covering the balance. Now that they expired, I found out that my account while closed for all intents and purposes still had a recurring charge on it. Frustrated, I have now begun the process of talking with support to cancel my account first and foremost, but secondly to try and get my money back, because I believe Google charged me in error. While aggrevating, I feel lucky that I checked my credit card statement closely this month instead of in March. I saved myself some future loss!&lt;/p&gt;
-
-&lt;p&gt;My approach may not follow the guidelines of a stoic, but how would a Stoic react in this case? If Epictetus lived today and saw this errant charge, how would he act and feel?&lt;/p&gt;
-
-&lt;p&gt;I believe mentally, he would resign himself to having lost the money. His made choices in the past that he cannot override. While he could have made choices more optimally in the past, he cannot change something in the past. This decision does not reside in his sphere of choice or control.&lt;/p&gt;
-
-&lt;p&gt;His actions may be the same - to immediately address the problem with whatever support he may encounter. He may ask for a refund as this clearly was not intended by him and Google does not practice predatory billing practices.&lt;/p&gt;
-
-&lt;p&gt;The major difference between Epictetus&amp;rsquo; outcome and my own is I let this weigh on me. I let it affect my affect. As I continue my journey I hope these events will not have such a strong affect on me.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/one-path-to-serenity/</guid>
+      <description>Or Serenity Now!
+If we trust all of the teachings up until today, the stoics leave us with the sound conclusion that the optimal way forward follows from us giving up everything outside of sphere of choice. Allowing ourselves to trust that fate or luck or God controls all else.
+I struggle with this conclusion, not because I disagree with it but because it disagrees with my unrelenting existentialism. My sphere of influence never feels like a discrete function but a continuum that decays asymptotically.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: If You Want to be Unsteady</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/if-you-want-to-be-unsteady/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/if-you-want-to-be-unsteady/</link>
       <pubDate>Mon, 16 Jan 2017 14:55:01 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/if-you-want-to-be-unsteady/</guid>
-      <description>&lt;p&gt;Similar to yesterday&amp;rsquo;s meditation &lt;a href=&#34;../if-you-want-to-be-steady/&#34;&gt;If You Want to be Steady&lt;/a&gt; today&amp;rsquo;s explores the other side of the equation, analyzing the outcome of one focusing on things we cannot control. The unsteady, shaky nature we face when we only consider the outcomes out of our control as opposed to our judgment of those outcomes.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m reminded of 2008 when a lot of my friends gambled professionally playing online poker. They would consistently play marathon sessions of heads-up poker online with 12 or more tables open at once. I marvelled at their abilities as one might to a chessmaster&amp;rsquo;s epic ability to take on multiple opponents simultaneously.&lt;/p&gt;
-
-&lt;p&gt;However, I found their ability to handle large swings in finances even more amazing. The variance they handled in a given week could range anywhere from losing $50,000 to winning $50,000 (and probably distributed normally within that range.) One bad day I watched my friend lose $10,000 and play it off simply as part of the job. Imagining events beyond my control dictating my life, and more importantly my ability to pay rent or eat showed me this life would never work for me.&lt;/p&gt;
-
-&lt;p&gt;Did my friends possess some powerful stoic motives that I lacked? Possibly, however their heroic intake of drugs and alcohol likely helped them deal with the unpredictable nature of their professions. Do they have a larger tolerance for stochastic outcomes? Almost definitely.&lt;/p&gt;
-
-&lt;p&gt;When I take a bad beat in poker I try very hard to not get caught up on the bad luck. Clearly, drawing a four outer will not happen every time, but it can feel like it. I try to focus on my play and whether I did everything in my control to succeed. Even if I played my hand exactly right and just ended up on the wrong side of the probability curve, I still find it hard to appreciate what I cannot control. My judgment gets away from me and I inherently become unsteady.&lt;/p&gt;
-
-&lt;p&gt;I believe avoiding unsteadiness happens through reflection but also aversion. Controlling my aversions puts not gambling for a living right near the top of the list. While I can dream of a day where I fully embody the stoic persona and could, potentially, take on a career of gambling I don&amp;rsquo;t believe it will be in the near future. I also hope when that day comes that my dreams do not involve gambling for a living.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/if-you-want-to-be-unsteady/</guid>
+      <description>Similar to yesterday&#39;s meditation If You Want to be Steady today&#39;s explores the other side of the equation, analyzing the outcome of one focusing on things we cannot control. The unsteady, shaky nature we face when we only consider the outcomes out of our control as opposed to our judgment of those outcomes.
+I&#39;m reminded of 2008 when a lot of my friends gambled professionally playing online poker. They would consistently play marathon sessions of heads-up poker online with 12 or more tables open at once.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: If You Want to be Steady</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/if-you-want-to-be-steady/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/if-you-want-to-be-steady/</link>
       <pubDate>Mon, 16 Jan 2017 12:15:17 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/if-you-want-to-be-steady/</guid>
-      <description>&lt;p&gt;Epictetus waxes on judgement, questioning what drives us to make good choices versus bad ones. If we derive our decisions from external inputs, raw materials, how can we arrive at good or bad decisions if not for our judgments. If those we have skewed judgment of these externals, our actions could be bad.&lt;/p&gt;
-
-&lt;p&gt;This process reminds me of the flux pattern because it feels the stoics want to have a unidirectional flow of data. In flux, inputs cause actions which influence reducers which update a store. The store updates the internal state of the system which the user sees.&lt;/p&gt;
-
-&lt;p&gt;Applied to the stoic&amp;rsquo;s life, the system sounds similar. Raw data (input) comes in to which a stoic applies judgment (reducers) to generate opinions (store) which manifest into actions (system state). If a bug exists within any of these stages, just like in a flux modeled computer system, the outcomes are skewed and may become unpredictable. Crashes occur.&lt;/p&gt;
-
-&lt;p&gt;Within this analogy of a stoic&amp;rsquo;s life, being steady solely relates to having well tuned and tested reducers. Without these, external inputs will affect internal state differently than expected and cause inconsistent external actions from the Stoic.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/if-you-want-to-be-steady/</guid>
+      <description>Epictetus waxes on judgement, questioning what drives us to make good choices versus bad ones. If we derive our decisions from external inputs, raw materials, how can we arrive at good or bad decisions if not for our judgments. If those we have skewed judgment of these externals, our actions could be bad.
+This process reminds me of the flux pattern because it feels the stoics want to have a unidirectional flow of data.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: What We Control and What We Don&#39;t</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/what-we-control-what-we-dont/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/what-we-control-what-we-dont/</link>
       <pubDate>Mon, 16 Jan 2017 11:45:07 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/what-we-control-what-we-dont/</guid>
-      <description>&lt;p&gt;Epictetus has us reflect on what we control in our lives and what we don&amp;rsquo;t. We control opinion, choice, desire, aversion, and anything of our own doing. We don&amp;rsquo;t control our body, property, position, and everything outside of our control. However, and this is crucial, our &lt;strong&gt;response&lt;/strong&gt; to things outside of our control remains within our control.&lt;/p&gt;
-
-&lt;p&gt;I refer to the human response to events outside our control as luck (some people see this same concept as karma, some see it as the hand of god.) I believe I&amp;rsquo;ve reflected on luck before during these stoicism meditations, but it bears revisiting (and will likely stay on my mind for some time.)&lt;/p&gt;
-
-&lt;p&gt;If a person continually views himself as unlucky or cursed by god, he does not realize he can control his own luck. Consider Job, a biblical character who had nearly everything in his life go wrong. The story goes that Judeo Christian God tested him to see whether he praised God because of his protection and good fortune due to God (It actually turns out that Satan led to this testing &amp;ndash; I lack strong education in biblical studies. &lt;a href=&#34;https://en.wikipedia.org/wiki/Job_(biblical_figure)&#34;&gt;Good overview here&lt;/a&gt;. Job curses the day of his birth, but stops short of accusing or cursing God.&lt;/p&gt;
-
-&lt;p&gt;While I do not believe in an almighty power, I do believe in the power of religion to impart basic values. In the case of Job, we see that God (or luck) controlled him rather than the opposite. Instead of blaming this force, Job accepted that a reason existed for his misfortune. Furthermore, he lamented his existence, but not the existence of a cruel deity (or bad luck.) In the end, because the bible likes fables, God restores his happiness because he passed the test. (As a side note, it turns out Job appears in Old Testament (Judaism), New Testament (Christianity), and Qu&amp;rsquo;ran (Islam)).&lt;/p&gt;
-
-&lt;p&gt;Strong parallels exist between Job and the idea of knowing what we control and what we don&amp;rsquo;t. If Job believed he controlled his property or position, nothing good would come of him. Had he not controlled his response to the events of losing his wealth, he would have ended up going insane. Instead, he bitterly accepted the events, never cursing God (his bad luck,) even though it clearly made him depressed.&lt;/p&gt;
-
-&lt;p&gt;Bad things happen to all of us. People who can accept the events as outside of their control and find a way to stay positive, or at least rational, tend to have better outcomes.&lt;/p&gt;
-
-&lt;p&gt;As I&amp;rsquo;ve started down the road of making my own luck, I generally have been happier and have had a more steady outlook on life. When someone smashed my car window, I could have looked at it as a terrible event, but instead I saw the positive that in ten years of living in a city and parking on the street it happened once. Five years ago I would not have had such a bright outlook. I can say categorically my life has improved as I&amp;rsquo;ve begun to control my responses to events outside of my control.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/what-we-control-what-we-dont/</guid>
+      <description>Epictetus has us reflect on what we control in our lives and what we don&#39;t. We control opinion, choice, desire, aversion, and anything of our own doing. We don&#39;t control our body, property, position, and everything outside of our control. However, and this is crucial, our response to things outside of our control remains within our control.
+I refer to the human response to events outside our control as luck (some people see this same concept as karma, some see it as the hand of god.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: Seeing Our Addicitions</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/seeing-our-addictions/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/seeing-our-addictions/</link>
       <pubDate>Sun, 08 Jan 2017 18:44:56 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/seeing-our-addictions/</guid>
-      <description>&lt;p&gt;Today, Seneca brings up the concept of addiction. Addiction affects many more people than we think it does. Everything from coffee to email to sex to video games put their hooks in to us and slowly chip away at our good intentions. Realizing an addiction becomes the first step toward improving, and sometimes this can be the hardest step.&lt;/p&gt;
-
-&lt;p&gt;The first step in AA is admitting you have a problem. In catholicism admitting a sin is the first step toward saving one&amp;rsquo;s soul. Without recognizing and admitting there is an issue, how can one be expected to fix it?&lt;/p&gt;
-
-&lt;p&gt;My first addiction was video games. I could spend more hours playing video games than doing all other things combined for weeks at a time. Video games could overcome me to the point that I couldn&amp;rsquo;t make conversation without referring to them. I still recall going to a New Year&amp;rsquo;s party when I was 16 and realized I had nothing to talk about but the new weapon I had acquired in a video game. Beyond video games I&amp;rsquo;ve had, and still have, many addictions. Coffee and cigarettes are the two physical ones. I occasionally relapse with video games. I can quickly get wrapped up in a new hobby to where some might say I am becoming addicted as it pervades every part of my being.&lt;/p&gt;
-
-&lt;p&gt;My addictive personality has taught me a lot about myself and addiction. It&amp;rsquo;s made me accept that addictions can show up anywhere, and for reasons that rarely follow logical pathways. Addictions for me generally appear as ways to cope with powerful thoughts and emotions. In college, I struggled with social anxiety and alcohol helped me cope with it. It helped me so much that I quickly required alcohol to have any type of social interaction. When even alcohol didn&amp;rsquo;t help, I could escape with video games. This created a fertile breeding ground for addiction because these behaviors helped me cope with something that was difficult. Once I established a pattern of behavior it became even more difficult to break out of it. If social interaction was tough before the behavior, it became even more difficult without the behavior was established.&lt;/p&gt;
-
-&lt;p&gt;However, recognizing my addiction became the first step to improvement. I realized that I wasted countless hours inebriated or ignoring reality and I wanted to change. Recognizing that I had addictions to realize was the first step. The steps afterward were not easy, but once I saw them I was able to measure them and once I was able to measure them I could fix them.&lt;/p&gt;
-
-&lt;p&gt;I still have addictions today I struggle with. Coffee is an addiction I&amp;rsquo;ll never say goodbye to because it&amp;rsquo;s too dang good and not bad enough for me to convince me to live without it. Smoking tabacco on the other hand is something I&amp;rsquo;d love to never do again. No matter how hard I try to kick that one, it hangs around. I see it. I recognize it. Now to stop it.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/seeing-our-addictions/</guid>
+      <description>Today, Seneca brings up the concept of addiction. Addiction affects many more people than we think it does. Everything from coffee to email to sex to video games put their hooks in to us and slowly chip away at our good intentions. Realizing an addiction becomes the first step toward improving, and sometimes this can be the hardest step.
+The first step in AA is admitting you have a problem. In catholicism admitting a sin is the first step toward saving one&#39;s soul.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: Seven Clear Functions of the Mind</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/seven-clear-functions-mind/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/seven-clear-functions-mind/</link>
       <pubDate>Sat, 07 Jan 2017 22:33:25 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/seven-clear-functions-mind/</guid>
-      <description>&lt;p&gt;Epictetus this time tells us that there are seven clear functions of mind: choice, refusal, yearning, repulsion, preparation, purpose, and assent. He concludes that only corrupt decisions made by a mind can pollute or clog its own function.&lt;/p&gt;
-
-&lt;p&gt;Thus far in January I&amp;rsquo;ve reflected pretty hard on choice, refusal, purpose, and assent. So far those have been the guiding principles of my reflections in the new year, so it may behoove me to reflect on the other three today.&lt;/p&gt;
-
-&lt;p&gt;Yearning sounds right at home in the stoic&amp;rsquo;s toolbox. I&amp;rsquo;ve yearned to be better so strongly that I&amp;rsquo;ve lost sight of all else. Yearning to become a cyclist, I did nothing in my free time but ride my bicycle. I read nothing but bicycling (non-fiction) books. I &lt;em&gt;lengthened&lt;/em&gt; my commute to spend more time on the bike in the mornings and evenings. I yearned so strongly that I lost all control of my desires to improve. Yearning in a vacuum may not produce sustainable results.&lt;/p&gt;
-
-&lt;p&gt;Repulsion of negativity and bad impulses is something I am getting stronger at, but still on a path toward truly mastering. While having a deep conversation this week, I offered up the viewpoint that my optimism has grown over the past decade so much that I might not recognize myself now. I can&amp;rsquo;t yet say that I repulse negativity, but I have grown, strongly, to fight off negative responses and exude positivity. The world feels like a better place, even if I sometimes feel like I&amp;rsquo;m &amp;ldquo;faking it before I make it&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Fortune (luck) favors the prepared&amp;rdquo; - Louis Pasteur. After becoming entranced with the thought that luck could be a trait, like in D&amp;amp;D, I arrived on this quote. It has rang out in my thoughts and speech for the past few months. It put to bed my opinions that some people are lucky and some just aren&amp;rsquo;t. Preparation is a way for one to build their own luck, and they can supplement it with optimism and general outlook on life.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/seven-clear-functions-mind/</guid>
+      <description>Epictetus this time tells us that there are seven clear functions of mind: choice, refusal, yearning, repulsion, preparation, purpose, and assent. He concludes that only corrupt decisions made by a mind can pollute or clog its own function.
+Thus far in January I&#39;ve reflected pretty hard on choice, refusal, purpose, and assent. So far those have been the guiding principles of my reflections in the new year, so it may behoove me to reflect on the other three today.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: Where, Who, What and Why</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/where-who-what-why/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/where-who-what-why/</link>
       <pubDate>Fri, 06 Jan 2017 11:32:49 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/where-who-what-why/</guid>
-      <description>&lt;p&gt;Marcus Aurelius today questions whether one can know where they are without understanding the universe, who they are without understanding their purpose in life, and without either of those why they are.&lt;/p&gt;
-
-&lt;p&gt;In Taoism, which I know little about, they have a term referred to as the uncarved block. The base existence without any exterior forces acting on one. A meditiation more than an ideal, if I understand correctly. Winnie the Pooh, arguably the strongest Taoist in child literature (&lt;a href=&#34;https://www.amazon.com/Tao-Pooh-Benjamin-Hoff/dp/0140067477&#34;&gt;The Tao of Pooh&lt;/a&gt; remains one of my favorite reads in my adolescence, although I probably need a refresher) simply flows with the wind.&lt;/p&gt;
-
-&lt;p&gt;Winnie the Pooh&amp;rsquo;s lack of understanding of the universe or who he was led to a different outcome that I would argue is the opposite of a Stoic, especially with regards to this Marcus Aurelius&amp;rsquo; excerpt. His approach to life was empirical. His approach to life was far stronger related to &lt;a href=&#34;../be-ruthless-to-things-that-dont-matter/&#34;&gt;Seneca&amp;rsquo;s excerpt on January 3&lt;/a&gt; because he let&amp;rsquo;s nothing out of his control bother him. In fact, if we follow that line of thought, it&amp;rsquo;s not unreasonable to peg Winnie the Pooh as a Stoic (although a Goole search for &lt;code&gt;Winnie the Pooh Stoicism&lt;/code&gt; is not reinforcing my claim. Making this argument will be my own task.)&lt;/p&gt;
-
-&lt;p&gt;Today&amp;rsquo;s is the first exercise that has made me strongly reflect on the writings, and not just because the author references Mitch Hedberg in his analysis. Aurelius puts it plain that without knowing about the universe and my purpose in life, I cannot know the basic truths about myself. This viewpoint scares me.&lt;/p&gt;
-
-&lt;p&gt;I want to say that I understand the universe as it is relevant to me. I want to say that I know my purpose in life, as it&amp;rsquo;s relevant to me. However, these thoughts always make me think of the video &lt;a href=&#34;https://www.youtube.com/watch?v=0fKBhvDjuy0&#34;&gt;Powers of Ten&lt;/a&gt; I watched in 7th grade science class. It made me realize that no matter how confident my knowledge of a topic, zooming out or in on the context provides an order of magnitude more and my confidence could be shattered knowing that it&amp;rsquo;s only a fraction of what truly exists.&lt;/p&gt;
-
-&lt;p&gt;Given the enormity of the universe or our purpose in the universe, can anyone (especially me) have a concept of their purpose, or what the universe is? Are we doomed to not know who we are, where we are, why we are?&lt;/p&gt;
-
-&lt;p&gt;I believe it&amp;rsquo;s best to err on the side of Winnie the Pooh and understand the universe as that understanding is within our control. Same for our purpose in life. Otherwise we&amp;rsquo;re doomed to constantly face the spectre of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Technology_in_The_Hitchhiker&#39;s_Guide_to_the_Galaxy#Total_Perspective_Vortex&#34;&gt;Total Perspective Vortex&lt;/a&gt; and all the stoicism in the universe wouldn&amp;rsquo;t help us then (unless, of course, you happen to be Zaphod Beeblebrox who looked at his insignificance as the utmost claim of his significance. I guess Trump could have the same misconception&amp;hellip;)&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/where-who-what-why/</guid>
+      <description>Marcus Aurelius today questions whether one can know where they are without understanding the universe, who they are without understanding their purpose in life, and without either of those why they are.
+In Taoism, which I know little about, they have a term referred to as the uncarved block. The base existence without any exterior forces acting on one. A meditiation more than an ideal, if I understand correctly. Winnie the Pooh, arguably the strongest Taoist in child literature (The Tao of Pooh remains one of my favorite reads in my adolescence, although I probably need a refresher) simply flows with the wind.</description>
     </item>
     
     <item>
       <title>Daily Stoicism: Clarify Your Intentions</title>
-      <link>http://www.nedrockson.com/post/daily-stoic/2017/1/clarify-your-intentions/</link>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/clarify-your-intentions/</link>
       <pubDate>Thu, 05 Jan 2017 22:28:32 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/daily-stoic/2017/1/clarify-your-intentions/</guid>
-      <description>&lt;p&gt;Clarifying my intentions to myself has been one of the strongest changes I&amp;rsquo;ve made over the past few years. I can&amp;rsquo;t say that in every stage and step of life I knew what my end goals are, but I&amp;rsquo;m getting closer.&lt;/p&gt;
-
-&lt;p&gt;The big question people like to ask is &amp;ldquo;where do you see yourself in 5 (or 10 or 15) years?&amp;rdquo; My answer five years ago, like most people in their mid-twenties, was probably lacklackluster. I doubt I&amp;rsquo;d have predicted that in five years I&amp;rsquo;d have started a few companies, improved my professional confidence, have a beautiful girlfriend who I plan on marrying, and a stronger understanding of myself.&lt;/p&gt;
-
-&lt;p&gt;If I try really hard to remember what I wanted when I was 27, I remember wanting to have a stronger personal life, to have a fulfilling romantic relationship, to win more (where winning wasn&amp;rsquo;t well defined,) and to enjoy my professional life more. I can say with great confidence that I achieved all of those goals, but not because I was striving to those ends.&lt;/p&gt;
-
-&lt;p&gt;Today, I can say that I&amp;rsquo;m very happy with where I am, but going through lots of change where I don&amp;rsquo;t have clear intentions. This day&amp;rsquo;s meditations have made me realize that I need a good framework for what my intentions and goals are. This will guide my actions, help me know if I&amp;rsquo;m on the right track, and let me know when I&amp;rsquo;ve finished.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/clarify-your-intentions/</guid>
+      <description>Clarifying my intentions to myself has been one of the strongest changes I&#39;ve made over the past few years. I can&#39;t say that in every stage and step of life I knew what my end goals are, but I&#39;m getting closer.
+The big question people like to ask is &amp;ldquo;where do you see yourself in 5 (or 10 or 15) years?&amp;rdquo; My answer five years ago, like most people in their mid-twenties, was probably lacklackluster.</description>
+    </item>
+    
+    <item>
+      <title>Daily Stoicism: The Big Three</title>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/the-big-three/</link>
+      <pubDate>Wed, 04 Jan 2017 21:51:11 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/the-big-three/</guid>
+      <description>Control your perceptions, Direct your actions properly, Willingly accept what&#39;s outside your control.
+Perception, action, and will are the big three. Clearly with these three statements aligned huge improvements are guaranteed.
+For me the furthest from optimal is my ability to control my perceptions. When I feel things going the wrong way for me, my first reaction is people are acting subversively. For instance, when scheduling an appointment with someone&#39;s assistant, I constantly second guess any questions they ask or changes they make.</description>
+    </item>
+    
+    <item>
+      <title>Daily Stoicism: Be Ruthless to the Things That Don&#39;t Matter</title>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/be-ruthless-to-things-that-dont-matter/</link>
+      <pubDate>Tue, 03 Jan 2017 20:15:42 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/be-ruthless-to-things-that-dont-matter/</guid>
+      <description>Today I reflect on saying no. No to new obligations, to invitations, and to exasperation (through saying no to undesired emotions.) Being able to say no, Seneca reasons, allows us to live more of our life the way we desire to live it.
+I can&#39;t recall the first time I learned about the virtues of saying no. I do remember in 2012 answering a job interview question with the virtues of saying no.</description>
+    </item>
+    
+    <item>
+      <title>Daily Stoicism: Education is Freedom</title>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/education-is-freedom/</link>
+      <pubDate>Mon, 02 Jan 2017 14:03:43 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/education-is-freedom/</guid>
+      <description>Epictetus states that only the educated are free. That it’s not enough to say only the free should be educated. Cause and effect — cast off the shackles by learning.
+Historically, learning has driven me. Not necessarily learning via an organized process, but understanding a concept down to the basics. Once I feel I understand, once I have forged my ring, I truly own that lesson. Freedom, in my view, is understanding and truly owning all of the lessons.</description>
+    </item>
+    
+    <item>
+      <title>Daily Stoicism: Control and Choice</title>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/control-and-choice/</link>
+      <pubDate>Mon, 02 Jan 2017 14:01:34 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/control-and-choice/</guid>
+      <description>Epictetus asks rhetorically where to do we look for good and evil? Within the externals that we have no control over or the choices that we control. Obviously things that we have no control over should not affect our happiness or outlook and yet so often we look at these externals as reflections of who we are, or some outcome of choices that we made. When we missed our connect flight by 2 minutes due to a delay I yelled my head off and acted really salty to the women at the gate, but it had no affect on the situation other than darkening my outlook.</description>
+    </item>
+    
+    <item>
+      <title>Daily Stoicism January: Clarity</title>
+      <link>http://www.nedrockson.com/posts/daily-stoic/2017/1/clarity/</link>
+      <pubDate>Mon, 02 Jan 2017 13:55:40 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/daily-stoic/2017/1/clarity/</guid>
+      <description>The month’s focus is clarity. My initial reflections on clarity bring me back to an online RPG I played as a teenager called Everquest where in order to recover mana you had to just sit there. In fact, before you reached level 35 you had to sit there and stare at your spell book. The clarity spell cast by the enchanter class would speed up mana recovery significantly.
+As I reflect more on the concept of clarity outside the realm of video games, I think of those fleeting glimpses of the world where all of my emotions express themselves in harmony.</description>
+    </item>
+    
+    <item>
+      <title>Daily Stoicism Meditations</title>
+      <link>http://www.nedrockson.com/posts/daily-stoic/background/</link>
+      <pubDate>Mon, 02 Jan 2017 12:58:15 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/daily-stoic/background/</guid>
+      <description>I&#39;ve begun going through the 366 daily stoic meditations provided by (The Daily Stoic)[https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736]. I decided that there&#39;s no better way to distill my knowledge and share it with others than putting it in a daily update. I will likely falter and miss updating some days, but look forward to reading my musings on a few hundred meditations on Stoicism.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>http://www.nedrockson.com/posts/hello-world/</link>
+      <pubDate>Mon, 02 Jan 2017 00:04:43 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/hello-world/</guid>
+      <description>I&#39;ve had &amp;ldquo;Make a personal website&amp;rdquo; on my todo list for about 5 years now. It always seemed daunting. At the end of the day, I continued to let the perfect be the enemy of the good and thus never pulled the trigger on it. But here we are, a reasonable website that&#39;s not great, but I&#39;m happy with the first step. As a goal for 2017, I plan to add my book reviews here, and attempt to write a blog post four times per month.</description>
+    </item>
+    
+    <item>
+      <title>Positioning: The Battle for Your Mind</title>
+      <link>http://www.nedrockson.com/posts/books/positioning/</link>
+      <pubDate>Sun, 01 Jan 2017 18:10:04 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/posts/books/positioning/</guid>
+      <description>Positioning is a short read from the 1980s that speaks to marketing in an overcommunicated society. Clearly more relevant today than ever, Al Ries addresses the phenomenon of being second to market in a competitive field. The case studies in the last 5 chapters help drive home the points. Strong introduction to market and product positioning. 7 / 10</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://www.nedrockson.com/about/</link>
+      <pubDate>Sun, 01 Jan 2017 16:06:13 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/about/</guid>
+      <description>I&#39;m a San Francisco Bay Area native. I grew up in Palo Alto, went to school at Stanford to study Computer Science and now live in SF.
+By Day I&#39;m a problem solver. Usually this means working with others to build things using computers. I&#39;ve been a professional software engineer since 2007, a product manager since 2013, and an entrepreneur since 2014. I may be the most passionate person you&#39;ll ever work with.</description>
+    </item>
+    
+    <item>
+      <title>Nothing here</title>
+      <link>http://www.nedrockson.com/tags/</link>
+      <pubDate>Sun, 01 Jan 2017 16:06:13 -0800</pubDate>
+      
+      <guid>http://www.nedrockson.com/tags/</guid>
+      <description>Nothing here</description>
     </item>
     
   </channel>

@@ -1,43 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Ned Rockson</title>
-    <link>http://www.nedrockson.com/tags/blog/index.xml</link>
-    <description>Recent content in Blog on Ned Rockson</description>
+    <title>blog on Compiling Leadership</title>
+    <link>http://www.nedrockson.com/tags/blog/</link>
+    <description>Recent content in blog on Compiling Leadership</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="http://www.nedrockson.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
+    <lastBuildDate>Sun, 10 Sep 2017 19:00:43 -0700</lastBuildDate>
+    
+	<atom:link href="http://www.nedrockson.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cost Per Usage</title>
-      <link>http://www.nedrockson.com/post/per-usage-cost/</link>
+      <link>http://www.nedrockson.com/posts/per-usage-cost/</link>
       <pubDate>Sun, 10 Sep 2017 19:00:43 -0700</pubDate>
       
-      <guid>http://www.nedrockson.com/post/per-usage-cost/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m always surprised when I realize my $400 suit costs about $20 each wear. Of course I may not live similar to a banker who probably wear a suit 50-100 times before replacement, but most formal engagements require me to spend one suit utilization unit and when I start to iron it the thought crosses my mind.&lt;/p&gt;
-
-&lt;p&gt;Bike shorts, cost somewhere around $5 whenever I go for a ride. I bought my golf clubs for a steal at $150 and have played at least 50 rounds of golf for a cost of $3 per round. Our mattress cost $700 and, if I assume 5 years of nightly sleep, costs us $0.39 per night. My shoes that I wear every day cost $100 and will last me about a year giving me a $0.27 per day amortized cost per use.&lt;/p&gt;
-
-&lt;p&gt;Bridesmaids probably have it the worst. Unlike groomsmen who can rent matching tuxedoes, they usually have to purchase a $200-$300 gown that they will wear once for a per usage cost of $300.&lt;/p&gt;
-
-&lt;p&gt;I have not driven daily in the past five years. When I did, I understood that society requires car ownership (a lease at least) to participate. I never once thought about the cost per use of my car, but thinking about it now it seems rather negative.&lt;/p&gt;
-
-&lt;p&gt;Take my Audi lease in 2010-2013. It cost $614 per month plus $100 per month insurance for a total of $714 per month. Over the 36 month lease, I spent $25,704. Assuming I drove the car two times per day, that cost me $11.73 per ride! While not all rides are created equal, this is rather surprising.&lt;/p&gt;
-
-&lt;p&gt;This metric of per cost usage seems reasonably useless based on this cursory investigation. I&amp;rsquo;m still reasonably interested in the thought but not able to make any conclusions.&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/per-usage-cost/</guid>
+      <description>I&#39;m always surprised when I realize my $400 suit costs about $20 each wear. Of course I may not live similar to a banker who probably wear a suit 50-100 times before replacement, but most formal engagements require me to spend one suit utilization unit and when I start to iron it the thought crosses my mind.
+Bike shorts, cost somewhere around $5 whenever I go for a ride. I bought my golf clubs for a steal at $150 and have played at least 50 rounds of golf for a cost of $3 per round.</description>
     </item>
     
     <item>
       <title>Hello, World!</title>
-      <link>http://www.nedrockson.com/post/hello-world/</link>
+      <link>http://www.nedrockson.com/posts/hello-world/</link>
       <pubDate>Mon, 02 Jan 2017 00:04:43 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/post/hello-world/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve had &amp;ldquo;Make a personal website&amp;rdquo; on my todo list for about 5 years now. It always seemed daunting. At the end of the day, I continued to let the perfect be the enemy of the good and thus never pulled the trigger on it. But here we are, a reasonable website that&amp;rsquo;s not great, but I&amp;rsquo;m happy with the first step. As a goal for 2017, I plan to add my book reviews here, and attempt to write a blog post four times per month. Let&amp;rsquo;s see how it goes.&lt;/p&gt;
-
-&lt;p&gt;For now, happy 2017!&lt;/p&gt;
-</description>
+      <guid>http://www.nedrockson.com/posts/hello-world/</guid>
+      <description>I&#39;ve had &amp;ldquo;Make a personal website&amp;rdquo; on my todo list for about 5 years now. It always seemed daunting. At the end of the day, I continued to let the perfect be the enemy of the good and thus never pulled the trigger on it. But here we are, a reasonable website that&#39;s not great, but I&#39;m happy with the first step. As a goal for 2017, I plan to add my book reviews here, and attempt to write a blog post four times per month.</description>
     </item>
     
   </channel>

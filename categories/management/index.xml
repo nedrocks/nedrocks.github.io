@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>management on Compiling Leadership</title>
+    <link>http://localhost:8000/categories/management/</link>
+    <description>Recent content in management on Compiling Leadership</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2019 20:41:27 -0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Early Agile OR The Agile That Doesn&#39;t Work For Your Team is the Same Agile That Doesn&#39;t Work For Others</title>
+      <link>http://localhost:8000/post/management/early-agile/</link>
+      <pubDate>Sat, 07 Dec 2019 20:41:27 -0800</pubDate>
+      
+      <guid>http://localhost:8000/post/management/early-agile/</guid>
+      <description>While researching the history of the standup meeting, I came across Jim Coplien&#39;s 1994 retrospective on development of Borland Quattro Pro for Windows. In it, Jim analyzes a herculean effort where a team of eight developers wrote over 1 million lines of code over a 31 month period, or approximately 1,000 lines of code per week per developer1.
+During development the team stumbled across early core agile principles almost a decade before the Agile Manifesto would be published.</description>
+    </item>
+    
+  </channel>
+</rss>

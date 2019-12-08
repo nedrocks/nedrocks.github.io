@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on </title>
+    <link>http://localhost:8000/categories/about/</link>
+    <description>Recent content in about on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 01 Jan 2017 16:06:13 -0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:8000/about/</link>
+      <pubDate>Sun, 01 Jan 2017 16:06:13 -0800</pubDate>
+      
+      <guid>http://localhost:8000/about/</guid>
+      <description>I&#39;m a San Francisco Bay Area native. I grew up in Palo Alto, went to school at Stanford to study Computer Science and now live in SF.</description>
+    </item>
+    
+  </channel>
+</rss>
