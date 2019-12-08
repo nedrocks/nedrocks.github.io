@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>software on Compiling Leadership</title>
-    <link>http://www.nedrockson.com/tags/software/</link>
+    <link>https://www.nedrockson.com/tags/software/</link>
     <description>Recent content in software on Compiling Leadership</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
     <lastBuildDate>Sat, 07 Dec 2019 20:41:27 -0800</lastBuildDate>
     
-	<atom:link href="http://www.nedrockson.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.nedrockson.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Early Agile OR The Agile That Doesn&#39;t Work For Your Team is the Same Agile That Doesn&#39;t Work For Others</title>
-      <link>http://www.nedrockson.com/posts/management/early-agile/</link>
+      <link>https://www.nedrockson.com/posts/management/early-agile/</link>
       <pubDate>Sat, 07 Dec 2019 20:41:27 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/posts/management/early-agile/</guid>
+      <guid>https://www.nedrockson.com/posts/management/early-agile/</guid>
       <description>While researching the history of the standup meeting, I came across Jim Coplien&#39;s 1994 retrospective on development of Borland Quattro Pro for Windows. In it, Jim analyzes a herculean effort where a team of eight developers wrote over 1 million lines of code over a 31 month period, or approximately 1,000 lines of code per week per developer1.
 During development the team stumbled across early core agile principles almost a decade before the Agile Manifesto would be published.</description>
     </item>

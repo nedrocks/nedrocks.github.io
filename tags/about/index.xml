@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>about on Compiling Leadership</title>
-    <link>http://www.nedrockson.com/tags/about/</link>
+    <link>https://www.nedrockson.com/tags/about/</link>
     <description>Recent content in about on Compiling Leadership</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 16:06:13 -0800</lastBuildDate>
     
-	<atom:link href="http://www.nedrockson.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.nedrockson.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://www.nedrockson.com/about/</link>
+      <link>https://www.nedrockson.com/about/</link>
       <pubDate>Sun, 01 Jan 2017 16:06:13 -0800</pubDate>
       
-      <guid>http://www.nedrockson.com/about/</guid>
+      <guid>https://www.nedrockson.com/about/</guid>
       <description>I&#39;m a San Francisco Bay Area native. I grew up in Palo Alto, went to school at Stanford to study Computer Science and now live in SF.
 By Day I&#39;m a problem solver. Usually this means working with others to build things using computers. I&#39;ve been a professional software engineer since 2007, a product manager since 2013, and an entrepreneur since 2014. I may be the most passionate person you&#39;ll ever work with.</description>
     </item>
