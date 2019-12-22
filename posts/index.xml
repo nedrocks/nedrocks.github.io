@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
-    <lastBuildDate>Sat, 14 Dec 2019 15:37:16 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 15:12:50 -0800</lastBuildDate>
     
 	<atom:link href="https://www.nedrockson.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scaling by Giving Up Control</title>
+      <link>https://www.nedrockson.com/posts/management/scaling-by-giving-up-control/</link>
+      <pubDate>Sun, 22 Dec 2019 15:12:50 -0800</pubDate>
+      
+      <guid>https://www.nedrockson.com/posts/management/scaling-by-giving-up-control/</guid>
+      <description>Every great engineer turned manager discovers she’s donned a set of bulky but powerful gloves. These gloves allow her to move much bigger rocks than before but hinder her ability to tinker with the fine details. She will struggle wearing these new gloves because until now she enjoyed and excelled at dealing with fine details. In order to succeed, the great engineer turned manager must remove herself from critical design and implementation paths.</description>
+    </item>
     
     <item>
       <title>First Time Manager Mistakes: Don&#39;t Be Friends First</title>
