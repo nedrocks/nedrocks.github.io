@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>culture on Compiling Leadership</title>
+    <link>https://www.nedrockson.com/tags/culture/</link>
+    <description>Recent content in culture on Compiling Leadership</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
+    <lastBuildDate>Sun, 05 Jan 2020 17:09:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.nedrockson.com/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Culture Change Comes From Senior Engineers</title>
+      <link>https://www.nedrockson.com/posts/engineering/senior-engineers-change-culture/</link>
+      <pubDate>Sun, 05 Jan 2020 17:09:00 -0800</pubDate>
+      
+      <guid>https://www.nedrockson.com/posts/engineering/senior-engineers-change-culture/</guid>
+      <description>One year ago I made a major career change. I transitioned from an engineering director position managing a team of 18 engineers and three managers to an individual contributor senior engineer.
+Honestly I struggled initially while deciding on the transition. It felt like my career would backslide with the change. On one hand I had fought hard and succeeded to reach the director level and I enjoyed my team - in fact I had hired almost half of them myself.</description>
+    </item>
+    
+  </channel>
+</rss>
