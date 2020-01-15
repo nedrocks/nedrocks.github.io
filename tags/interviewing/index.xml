@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>engineering on Compiling Leadership</title>
-    <link>https://www.nedrockson.com/tags/engineering/</link>
-    <description>Recent content in engineering on Compiling Leadership</description>
+    <title>interviewing on Compiling Leadership</title>
+    <link>https://www.nedrockson.com/tags/interviewing/</link>
+    <description>Recent content in interviewing on Compiling Leadership</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
     <lastBuildDate>Sun, 12 Jan 2020 21:24:00 -0800</lastBuildDate>
     
-	<atom:link href="https://www.nedrockson.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.nedrockson.com/tags/interviewing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <guid>https://www.nedrockson.com/posts/management/interview-correctly/</guid>
       <description>I have been lucky to have interview training from small companies, large companies, and external consultants. I&#39;ve practiced my skills while conducting at least 750 interviews over my career. I&#39;d go so far as to call myself a well-trained interviewer.
 In case you&#39;ve never been part of a technical interview, I&#39;ll give you a quick rundown. The candidate&#39;s interview usually lasts between three to eight hours, with each interview taking between 30 minutes and one hour.</description>
-    </item>
-    
-    <item>
-      <title>Career Growth: Going Forward by Going Backward</title>
-      <link>https://www.nedrockson.com/posts/engineering/career-growth-going-forward-going-backward/</link>
-      <pubDate>Sun, 05 Jan 2020 17:09:00 -0800</pubDate>
-      
-      <guid>https://www.nedrockson.com/posts/engineering/career-growth-going-forward-going-backward/</guid>
-      <description>One year ago I made a major career change. I transitioned from an engineering director position managing a team of 18 engineers and three managers to an individual contributor senior engineer.
-Honestly, I struggled initially while deciding on the transition. It felt like my career would backslide with the change. On one hand, I had fought hard and succeeded to reach the director level and I enjoyed my team - in fact, I had hired almost half of them myself.</description>
     </item>
     
   </channel>
