@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Testing consts and switch statements with go/ast - Compiling Leadership</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Testing consts and switch statements with go/ast" />
+<meta property="og:description" content="A working (albeit hacky) solution to ensure your switch statement includes all consts within a file." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.nedrockson.com/posts/engineering/testing-with-go-ast/" />
+<meta property="og:image" content="https://www.nedrockson.com/img/600px-Gogophercolor.png" />
+<meta property="article:published_time" content="2020-01-19T20:01:00-08:00" />
+<meta property="article:modified_time" content="2020-01-19T20:01:00-08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.nedrockson.com/img/600px-Gogophercolor.png"/>
+
+<meta name="twitter:title" content="Testing consts and switch statements with go/ast"/>
+<meta name="twitter:description" content="A working (albeit hacky) solution to ensure your switch statement includes all consts within a file."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.nedrockson.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.nedrockson.com/css/main.css" /><link rel="stylesheet" type="text/css" href="https://www.nedrockson.com/css/dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://www.nedrockson.com/js/feather.min.js"></script>
+	
+		<script src="https://www.nedrockson.com/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://www.nedrockson.com/">Compiling Leadership</a></h1>
+	<div class="site-description"><p>15 years of building, leading, and managing; failures and successes</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://twitter.com/nedrockson" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="https://linkedin.com/in/nedrocks" title="Linkedin"><i data-feather="linkedin"></i></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">19</span>
+							<span class="rest">Jan 2020</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Testing consts and switch statements with go/ast</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>(If you just want to look at the code, check it out on <a href="https://github.com/nedrocks/switch-const-test/blob/master/errs/error_test.go">my github</a>. Leave a comment if you want to chat about it!)</p>
+<p>I believe that services in golang should abstract <code>error</code>s between their <code>internal</code> package and their <code>api</code> package. I find this makes managing errors and logic flows much more manageable, with one exception. There needs to exist a layer to convert an internal error into its API representation.</p>
+<p>That conversion step isn't too hard, just build an <code>errs</code> package or something similar. So long as we call the function when returning to the api layer, we will convert the error accurately, and all is well.</p>
+<p>Golang can get a bit annoying because the way consts are defined we cannot ensure at compile time that all are handled. In an object-oriented language with inheritance such as Java, we would handle this by pushing the logic to the object.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">abstract class InternalError {
+    abstract ExternalError convertToExternal();
+}
+
+class NotFoundInternalError extends InternalError {
+    ...
+}
+</code></pre></div><p>In golang enforcing this becomes more difficult because idiomatic golang pushes us to such verbose boilerplate. Instead, we construct an interface for an internal error and a function to convert internal errors to external errors based on an ErrorCode or something similar.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">type ExternalError interface {
+    error
+    Code() InternalErrorCode
+}
+
+func ConvertToExternalError(e InternalError) error {
+    ...
+    switch e.Code() {
+        ...
+    }
+    ...
+}
+</code></pre></div><p>The problem with this model is when we add a new InternalErrorCode definition, we do not verify at compile time that the switch statement needs a new branch. To my knowledge, there is not a simple way to do this without adding significant boilerplate.</p>
+<p>Creating a new struct for each error type could work. This requires and defining the interface for each struct, similar to the earlier Java implementation. However, nothing stops an engineer from <strong>not</strong> doing that because the concept of <code>abstract</code> doesn't exist in golang.</p>
+<h4 id="enter-goast">Enter go/ast</h4>
+<p>Before diving into the AST, let's quickly look at <a href="https://github.com/nedrocks/switch-const-test/tree/master/errs">the code</a>. First, we define a set of <code>const</code> error codes in a file by itself:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">type InternalErrorCode string
+
+const (
+    IncorrectInformation = InternalErrorCode(&#34;incorrect_information&#34;)
+
+    IncorrectLoginProfile = InternalErrorCode(&#34;incorrect_login_profile&#34;)
+
+    Forbidden = InternalErrorCode(&#34;Forbidden&#34;)
+
+    AccessTokenRevoked = InternalErrorCode(&#34;access_token_revoked&#34;)
+
+    NotFound = InternalErrorCode(&#34;not_found&#34;)
+
+    Unknown = InternalErrorCode(&#34;unknown&#34;)
+
+    DownstreamError = InternalErrorCode(&#34;downstream_error&#34;)
+
+)
+</code></pre></div><p>Then in another file in the same package we define our <code>InternalError</code> type as well as a function to convert it to an external error:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">// InternalError describes an error interface to use internally for the service.
+type InternalError interface {
+    error
+
+    Code() InternalErrorCode
+
+    WrappedError() error
+}
+
+// ConvertToExternalError Will attempt to convert to an external Twirp error.
+func ConvertToExternalError(e InternalError) error {
+    if e == nil {
+        return nil
+    }
+
+    if err, ok := e.(twirp.Error); ok {
+        return err
+    }
+
+    switch e.Code() {
+    case IncorrectInformation:
+        fallthrough
+    case IncorrectLoginProfile:
+        return twirp.NewError(twirp.InvalidArgument, &#34;incorrect information&#34;)
+    case Forbidden:
+        fallthrough
+    case AccessTokenRevoked:
+        return twirp.NewError(twirp.Unauthenticated, &#34;forbidden&#34;)
+    case NotFound:
+        return twirp.NewError(twirp.NotFound, &#34;not found&#34;)
+    case Unknown:
+        fallthrough
+    case DownstreamError:
+        return twirp.NewError(twirp.Unknown, &#34;unknown error&#34;)
+    }
+
+    return twirp.InternalErrorWith(e)
+}
+</code></pre></div><p>There isn't a clean way to unit test that we handle every const defined in error_codes.go. Unless that is, we use go/ast. This package (and related packages) allow us to parse the code and walk the abstract syntax tree. Using this technique, we can find every defined const in a file as well as every branch in a switch statement:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">func Test_ConvertChecksAllConstsInSwitch(t *testing.T) {
+    declaredNames := []string{}
+    switchCaseNames := []string{}
+
+    // First find all of the names of declared variables in error_codes.go.
+    // This will obviously not work if we instantiate varibles of type
+    // InternalErrorCode elsewhere. However, if we keep all of these variables
+    // to that file (and no other variables) then this list will be comprehensive.
+    fset := token.NewFileSet() // positions are relative to the file set.
+    f, err := parser.ParseFile(fset, &#34;error_codes.go&#34;, nil, 0)
+    if err != nil {
+        t.Fatal(err)
+    }
+
+    ast.Inspect(f, func(n ast.Node) bool {
+        switch x := n.(type) {
+        case *ast.Ident:
+            if x.Obj != nil &amp;&amp; x.Obj.Kind == ast.Con {
+                obj := x.Obj
+                d := obj.Decl
+                if declAsValue, ok := d.(*ast.ValueSpec); ok {
+                    if len(declAsValue.Names) &gt; 0 {
+                        declaredNames = append(declaredNames, declAsValue.Names[0].Name)
+                        return true
+                    }
+                }
+            }
+        }
+        return true
+    })
+
+    // Now find all of the case checks in the switch statement in `error.go`.
+    // Keep in mind this will break if there is more than one switch statement
+    // in that file. This is pretty hacky :-).
+    fset = token.NewFileSet() 
+    f, err = parser.ParseFile(fset, &#34;error.go&#34;, nil, 0)
+    if err != nil {
+        t.Fatal(err)
+    }
+    ast.Inspect(f, func(n ast.Node) bool {
+        switch x := n.(type) {
+        case *ast.CaseClause:
+            if len(x.List) &gt; 0 {
+                if listElemAsIdent, ok := x.List[0].(*ast.Ident); ok {
+                    switchCaseNames = append(switchCaseNames, listElemAsIdent.Name)
+                }
+            }
+        }
+        return true
+    })
+
+    Convey(&#34;Switch statement cases should be the same as declared names&#34;, t, func() {
+        sort.Strings(declaredNames)
+        sort.Strings(switchCaseNames)
+
+        So(declaredNames, ShouldResemble, switchCaseNames)
+    })
+}
+</code></pre></div><p>The code here is very hacky and relies on specific implementation details. With more in-depth analysis, we can build a more robust version, but this works in a pinch.</p>
+<p>Have any feedback or a better way to do this? I'd love to hear from you. Shoot me an email at <a href="mailto:ned@nedrockson.com">ned@nedrockson.com</a> or drop a comment below.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/engineering">engineering</a></li>
+							
+							<li><a href="/tags/golang">golang</a></li>
+							
+						</ul>
+					
+				
+			</div><div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'compiling-leadership';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+		Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © 2019 Ned Rockson. Some Rights Reserved |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-89702408-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>feather.replace()</script>
+</body>
+</html>

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 Ned Rockson. Some Rights Reserved</copyright>
-    <lastBuildDate>Sun, 12 Jan 2020 21:24:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 20:01:00 -0800</lastBuildDate>
     
 	<atom:link href="https://www.nedrockson.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Testing consts and switch statements with go/ast</title>
+      <link>https://www.nedrockson.com/posts/engineering/testing-with-go-ast/</link>
+      <pubDate>Sun, 19 Jan 2020 20:01:00 -0800</pubDate>
+      
+      <guid>https://www.nedrockson.com/posts/engineering/testing-with-go-ast/</guid>
+      <description>(If you just want to look at the code, check it out on my github. Leave a comment if you want to chat about it!)
+I believe that services in golang should abstract errors between their internal package and their api package. I find this makes managing errors and logic flows much more manageable, with one exception. There needs to exist a layer to convert an internal error into its API representation.</description>
+    </item>
     
     <item>
       <title>Interview Correctly: Are You Selecting for the Right Things?</title>
