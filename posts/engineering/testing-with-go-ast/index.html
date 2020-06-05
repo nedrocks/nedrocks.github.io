@@ -68,7 +68,7 @@
 			<div class="markdown">
 				<p>(If you just want to look at the code, check it out on <a href="https://github.com/nedrocks/switch-const-test/blob/master/errs/error_test.go">my github</a>. Leave a comment if you want to chat about it!)</p>
 <p>I believe that services in golang should abstract <code>error</code>s between their <code>internal</code> package and their <code>api</code> package. I find this makes managing errors and logic flows much more manageable, with one exception. There needs to exist a layer to convert an internal error into its API representation.</p>
-<p>That conversion step isn't too hard, just build an <code>errs</code> package or something similar. So long as we call the function when returning to the api layer, we will convert the error accurately, and all is well.</p>
+<p>That conversion step isn&rsquo;t too hard, just build an <code>errs</code> package or something similar. So long as we call the function when returning to the api layer, we will convert the error accurately, and all is well.</p>
 <p>Golang can get a bit annoying because the way consts are defined we cannot ensure at compile time that all are handled. In an object-oriented language with inheritance such as Java, we would handle this by pushing the logic to the object.</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">abstract class InternalError {
     abstract ExternalError convertToExternal();
@@ -91,9 +91,9 @@ func ConvertToExternalError(e InternalError) error {
     ...
 }
 </code></pre></div><p>The problem with this model is when we add a new InternalErrorCode definition, we do not verify at compile time that the switch statement needs a new branch. To my knowledge, there is not a simple way to do this without adding significant boilerplate.</p>
-<p>Creating a new struct for each error type could work. This requires and defining the interface for each struct, similar to the earlier Java implementation. However, nothing stops an engineer from <strong>not</strong> doing that because the concept of <code>abstract</code> doesn't exist in golang.</p>
+<p>Creating a new struct for each error type could work. This requires and defining the interface for each struct, similar to the earlier Java implementation. However, nothing stops an engineer from <strong>not</strong> doing that because the concept of <code>abstract</code> doesn&rsquo;t exist in golang.</p>
 <h4 id="enter-goast">Enter go/ast</h4>
-<p>Before diving into the AST, let's quickly look at <a href="https://github.com/nedrocks/switch-const-test/tree/master/errs">the code</a>. First, we define a set of <code>const</code> error codes in a file by itself:</p>
+<p>Before diving into the AST, let&rsquo;s quickly look at <a href="https://github.com/nedrocks/switch-const-test/tree/master/errs">the code</a>. First, we define a set of <code>const</code> error codes in a file by itself:</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">type InternalErrorCode string
 
 const (
@@ -151,7 +151,7 @@ func ConvertToExternalError(e InternalError) error {
 
     return twirp.InternalErrorWith(e)
 }
-</code></pre></div><p>There isn't a clean way to unit test that we handle every const defined in error_codes.go. Unless that is, we use go/ast. This package (and related packages) allow us to parse the code and walk the abstract syntax tree. Using this technique, we can find every defined const in a file as well as every branch in a switch statement:</p>
+</code></pre></div><p>There isn&rsquo;t a clean way to unit test that we handle every const defined in error_codes.go. Unless that is, we use go/ast. This package (and related packages) allow us to parse the code and walk the abstract syntax tree. Using this technique, we can find every defined const in a file as well as every branch in a switch statement:</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">func Test_ConvertChecksAllConstsInSwitch(t *testing.T) {
     declaredNames := []string{}
     switchCaseNames := []string{}
@@ -211,7 +211,7 @@ func ConvertToExternalError(e InternalError) error {
     })
 }
 </code></pre></div><p>The code here is very hacky and relies on specific implementation details. With more in-depth analysis, we can build a more robust version, but this works in a pinch.</p>
-<p>Have any feedback or a better way to do this? I'd love to hear from you. Shoot me an email at <a href="mailto:ned@nedrockson.com">ned@nedrockson.com</a> or drop a comment below.</p>
+<p>Have any feedback or a better way to do this? I&rsquo;d love to hear from you. Shoot me an email at <a href="mailto:ned@nedrockson.com">ned@nedrockson.com</a> or drop a comment below.</p>
 
 			</div>
 
