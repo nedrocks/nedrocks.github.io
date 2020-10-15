@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Making Analytics Work with Segment - Compiling Leadership</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Making Analytics Work with Segment" />
+<meta property="og:description" content="As part of work on my new company, Debrief, I&rsquo;ve gone through a self-taught Electron crash course. I have found it maddening to find good Electron resources. As such, I am committed to publishing my learnings, including code snippets, to this blog. Knowing me, I&rsquo;ll forget at some point to keep things updated, so if you read this and want more, please email me (ned @ this domain) and give me a kick in the butt." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.nedrockson.com/posts/electron/segment-analytics-work/" />
+<meta property="article:published_time" content="2020-10-08T09:53:41-07:00" />
+<meta property="article:modified_time" content="2020-10-08T09:53:41-07:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Making Analytics Work with Segment"/>
+<meta name="twitter:description" content="As part of work on my new company, Debrief, I&rsquo;ve gone through a self-taught Electron crash course. I have found it maddening to find good Electron resources. As such, I am committed to publishing my learnings, including code snippets, to this blog. Knowing me, I&rsquo;ll forget at some point to keep things updated, so if you read this and want more, please email me (ned @ this domain) and give me a kick in the butt."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.nedrockson.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.nedrockson.com/css/main.css" /><link rel="stylesheet" type="text/css" href="https://www.nedrockson.com/css/dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://www.nedrockson.com/js/feather.min.js"></script>
+	
+		<script src="https://www.nedrockson.com/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://www.nedrockson.com/">Compiling Leadership</a></h1>
+	<div class="site-description"><p>15 years of building, leading, and managing; failures and successes</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://twitter.com/nedrockson" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="https://linkedin.com/in/nedrocks" title="Linkedin"><i data-feather="linkedin"></i></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">08</span>
+							<span class="rest">Oct 2020</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Making Analytics Work with Segment</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>As part of work on my new company, <a href="https://www.getdebrief.com">Debrief</a>, I&rsquo;ve gone through a self-taught Electron crash course. I have found it maddening to find good Electron resources. As such, I am committed to publishing my learnings, including code snippets, to this blog. Knowing me, I&rsquo;ll forget at some point to keep things updated, so if you read this and want more, please email me (ned @ this domain) and give me a kick in the butt.</p>
+<h1 id="electron-analytics-with-segmentcom">Electron Analytics with Segment.com</h1>
+<p>I struggled mightily with this problem. All in I probably spent 15 hours getting this solution correct. Hopefully this helps you spend less time than I did.</p>
+<p>Segment maintains a bunch of great libraries to send events seamlessly to their service. The two I&rsquo;m focused on here are <a href="https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/supported-browsers/">browser Analytics.js</a> and <a href="https://segment.com/docs/connections/sources/catalog/libraries/server/node/">analytics-node</a>.</p>
+<p>The libraries I ended up trying but had nightmarish, hair pulling problems with are listed in a footnote<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> so when skimming you don&rsquo;t accidentally think I&rsquo;m recommending them.</p>
+<p>Segment documentation around Electron support partially recommends a pattern of using these two. Beyond that they don&rsquo;t clearly recommend a path forward (at least that I could find, and I searched.)</p>
+<p>Anyway, here is what worked, then I&rsquo;ll talk about what didn&rsquo;t.</p>
+<h2 id="use-analyticsjs-in-your-renderer">Use analytics.js in your renderer</h2>
+<p><strong>This is the working solution.</strong></p>
+<p>This solution is great because it pulls updated integration settings from segment on load. It also tracks paths reasonably well. The two files you need to update are your <code>app.html</code> (or whatever html file you load in your renderer) and some analytics module (in my case <code>renderer/analytics.ts</code>).</p>
+<h3 id="apphtml-or-whatever-html-file-your-renderer-loads">app.html (or whatever HTML file your renderer loads)</h3>
+<p>I&rsquo;m going to assume your main renderer uses app.html for brevity. Install the script tag from Segment in the head section:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;script&gt;
+  !(function () {
+    var analytics = (window.analytics = window.analytics || []);
+    &lt;!-- SNIP --&gt;
+    analytics.load(
+      new URLSearchParams(window.location.search).get(&#39;segment_key&#39;)
+    );
+  })();
+</code></pre></div><p>The last part where we load analytics with a parameter from the query is important when running in sanboxed mode (which <a href="https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md">you should be doing</a>). Access to <code>process.env</code> is not available in sandbox mode. Don&rsquo;t let a dev server let you think otherwise because you&rsquo;ll get upset when you package and release your app.</p>
+<p>When you load the renderer BrowserWindow remember to pass the query parameter (note that since this is called from the main process, we have access to <code>process.env</code>):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">mainWindow.loadURL(
+  `file://${app.getAppPath()}/app.html?segment_key=${process.env.SEGMENT_KEY}`
+);
+</code></pre></div><h3 id="analyticsts">analytics.ts</h3>
+<p>You&rsquo;ll likely want a renderer module to encapsulate your analytics. I personally like to have all of my analytics events wrapped in a function call so we can have typescript guarantee the types are passed properly. Note that because Electron has both renderer process(es) and a main process, you should keep files that cannot be shared in explicit directories. We have a <code>renderer</code> folder and a <code>main</code> folder to help me with this. For this module, store it in <code>renderer/analytics.ts</code>.</p>
+<p>Inside this module create an initialize function. (As a side note if you plan to initialize other analytics-esque packages this can serve for that purpose. We intiailize Sentry in this function.) In this, setup the middleware in <code>window.analytics</code>. Due to Electron requiring a hash router or in memory router, segment will not know the path or page currently active when sending an event. Because we use a hash router, the path and URL sent without middleware becomes <code>/</code> all the time. Tracking funnels and flows would prove quite difficult without it.</p>
+<p>We set things up as follows:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">export const initialize = () =&gt; {
+  // SNIP...
+
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  window.analytics?.addSourceMiddleware(({ payload, next }) =&gt; {
+    let path = history.location.pathname;
+    if (!path || path.length === 0) {
+      path = &#39;/&#39;;
+    }
+    if (payload &amp;&amp; payload.obj) {
+      if (payload.obj.context &amp;&amp; payload.obj.context.page) {
+        payload.obj.context.page.url = path;
+        payload.obj.context.page.path = path;
+      }
+      if (payload.obj.properties) {
+        if (payload.obj.properties.path) {
+          payload.obj.properties.path = path;
+        }
+        if (payload.obj.properties.url) {
+          payload.obj.properties.url = path;
+        }
+      }
+    }
+    next(payload);
+  });
+};
+</code></pre></div><h1 id="example-event">Example Event</h1>
+<p>From here setup events how you want. Here&rsquo;s my <code>gqlLatency</code> event as an example:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">enum EventType {
+  GQL_LATENCY = &#39;GqlLatency&#39;,
+}
+
+class DebriefAnalytics {
+  static gqlLatency(operationName: string, latencyMS: number) {
+    window.analytics?.track(EventType.GQL_LATENCY, {
+      operationName,
+      latencyMS,
+    });
+  }
+}
+</code></pre></div><h1 id="conclusion">Conclusion</h1>
+<p>Hopefully this helped you save some time, or at least helped you not get incredibly frustrated! For other electron tips, check out the electron section <a href="../">here</a>. If you want to talk more about eletcron, reach out to me or leave a comment. I&rsquo;d love to hear from you.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Other libraries I tried working with: <a href="https://github.com/segmentio/analytics.js-integrations">analytics.js-integrations</a>, <a href="https://github.com/segmentio/analytics.js-core">analytics.js-core</a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+			</div>
+
+			<div class="newsletter">
+				<hr/>
+				<h4>Want to get content like this regularly in your inbox? <a href="https://tinyletter.com/nedrocks">Subscribe to my newsletter!</a></h4>
+				<hr/>
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/engineering">engineering</a></li>
+							
+							<li><a href="/tags/electron">electron</a></li>
+							
+						</ul>
+					
+				
+			</div><div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'compiling-leadership';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the </a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © 2019 Ned Rockson. Some Rights Reserved |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-89702408-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>feather.replace()</script>
+</body>
+</html>
